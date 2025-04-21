@@ -6,9 +6,9 @@ ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
 ms.reviewer: Plammer
-ms.custom: CSSTroubleshoot
+ms.custom: 
+  - CSSTroubleshoot
 search.appverid: 
   - MET150
 appliesto: 
@@ -18,18 +18,16 @@ appliesto:
   - Project Professional 2010
   - Project Professional 2013
   - Project 2013 Standard
-ms.date: 3/31/2022
+ms.date: 03/31/2022
 ---
 
 # Importing a Task Outline Structure into Project
 
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
-
-##  Summary
+## Summary
 
 When you import files from a different application to Microsoft Project, you can include information that will allow Microsoft Project to generate a project outline structure for the imported file.
 
-##  More Information
+## More Information
 
 You cannot directly import the Outline Number field from a file saved in a format other than the standard Microsoft Project format. However, it is possible to import a different field that will correctly generate the same outline structure.
 

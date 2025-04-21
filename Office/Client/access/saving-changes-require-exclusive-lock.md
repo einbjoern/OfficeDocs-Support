@@ -1,12 +1,11 @@
 ---
 title: Unable to save design changes to Access objects
-description: Explains that you cannot save design changes if Access is unable to obtain an exclusive lock on the database. You must implement source code control using Visual SourceSafe add-in or distribute local working copies of the database to each developer.
-author: MaryQiu1987
-ms.author: v-maqiu
+description: Explains that you can't save design changes if Access is unable to obtain an exclusive lock on the database. You must implement source code control using Visual SourceSafe add-in or distribute local working copies of the database to each developer.
+author: helenclu
+ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
 ms.custom: 
   - CI 114797
   - CSSTroubleshoot
@@ -16,11 +15,9 @@ appliesto:
   - Microsoft Office Access 2007
   - Microsoft Office Access 2003
 search.appverid: MET150
-ms.date: 3/31/2022
+ms.date: 06/06/2024
 ---
 # Exclusive lock is required for saving design changes to Access objects
-
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
 
 _Original KB number:_ &nbsp; 283228
 
@@ -43,7 +40,7 @@ When you try to save a new data access page, you receive the following message:
 
 ## Cause
 
-- You are trying to open a form, report, macro, module, or commandbar in Design view.
+- You are trying to open a form, report, macro, module, or command bar in Design view.
 - You are trying to save design changes to one of these object types or a new page link while other users have the same database open.
 
 To save design changes to these object types, Access must be able to obtain an exclusive lock on the database.
@@ -54,11 +51,11 @@ In situations where multiple developers are designing an Access application simu
 
 ### Implementing source code control
 
-The Microsoft Access Visual SourceSafe Add-In permits you to put your Access application under source code control while it is under development. If you put your application under source code control, this permits you to track and to store changes that are made to your application over time. By using Microsoft Visual SourceSafe, you can review the history of an object and then revert to earlier versions of an object. You may check out objects in the Microsoft Access application, modify them or create new objects in their local copy, and then check them back into the main database under source code control. The Microsoft Access Visual SourceSafe Add-In is available with Microsoft Office XP Developer. To use the Microsoft Access Visual SourceSafe Add-In, you must also install Microsoft Visual SourceSafe, which is also available with Microsoft Office XP Developer, separately.
+The Microsoft Access Visual SourceSafe add-in permits you to put your Access application under source code control while it is under development. If you put your application under source code control, this permits you to track and to store changes that are made to your application over time. By using Microsoft Visual SourceSafe, you can review the history of an object and then revert to earlier versions of an object. You may check out objects in the Microsoft Access application, modify them or create new objects in their local copy, and then check them back into the main database under source code control. The Microsoft Access Visual SourceSafe add-in is available with Microsoft Office XP Developer. To use the Microsoft Access Visual SourceSafe add-in, you must also install Microsoft Visual SourceSafe, which is also available with Microsoft Office XP Developer, separately.
 
 ### Using individual working databases
 
-Another option you can implement is to keep a master copy of the database application in a centralized location, and then use individual working copies of the database on each developer's computer. Each developer would develop his or her portion of the application in the local working copy of the database. When the developer wants to make a change to an object in the database application, he or she would import the object from the master database into the local working database. Then the developer would make the required changes to the object in the local working database, and save the object. When the developer is ready to commit the changes to the master database, he or she would export the object to the master database, overwriting the original object.
+Another option you can implement is to keep a master copy of the database application in a centralized location, and then use individual working copies of the database on each developer's computer. Each developer would develop individual portion of the application in the local working copy of the database. When the developers want to make a change to an object in the database application, they would import the object from the master database into the local working database. Then the developers would make the required changes to the object in the local working database, and save the object. When the developers are ready to commit the changes to the master database, they would export the object to the master database, overwriting the original object.
 
 One disadvantage of using this approach is that there is no way to determine if multiple developers are concurrently working on the same object locally. When the developer exports the object to the master database, the developer can unknowingly overwrite changes that another developer committed to the master database.
 

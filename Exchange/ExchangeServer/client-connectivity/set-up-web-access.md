@@ -1,13 +1,13 @@
 ---
 title: How to set up Outlook on the web to access Exchange Server
 description: Describes how to set up Outlook on the web to access Exchange Server.
-author: simonxjx
+author: cloud-writer
+ms.author: meerak
 audience: ITPro
 ms.topic: troubleshooting
-ms.author: v-six
 manager: dcscontentpm
-localization_priority: Normal
 ms.custom: 
+  - sap:Clients and Mobile\Can't Connect to Mailbox with OWA
   - Exchange Server
   - CSSTroubleshoot
 search.appverid: 
@@ -19,14 +19,15 @@ appliesto:
   - Exchange Server 2013 Standard Edition
   - Exchange Server 2010 Enterprise
   - Exchange Server 2010 Standard
-ms.date: 3/31/2022
+ms.date: 01/24/2024
+ms.reviewer: v-six
 ---
 
 # How to set up Outlook on the web to access Exchange Server
 
 Outlook on the web (formerly known as Outlook Web App or Outlook Web Access) is a browser-based email client. Outlook on the web lets you access your Microsoft Exchange Server mailbox from almost any web browser.
 
-If you are a Microsoft Office 365 user, click the following link to access Office 365 Outlook Web App:
+If you are a Microsoft 365 user, click the following link to access Microsoft 365 Outlook Web App:
 
 [Outlook.Office365.com](https://outlook.office365.com)
 

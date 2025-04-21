@@ -2,17 +2,17 @@
 title: Can't join Teams when using IE or Edge
 ms.author: luche
 author: helenclu
-ms.date: 4/9/2020
+ms.date: 10/30/2023
 audience: ITPro
 ms.topic: troubleshooting
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - SPO160
   - MET150
 appliesto: 
   - Microsoft Teams
 ms.custom: 
+  - sap:Teams Admin\
   - CI 113425
   - CSSTroubleshoot
 ms.reviewer: scapero
@@ -39,7 +39,7 @@ Make the following changes to IE or Edge settings from the Control Panel, either
    - https://*.teams.microsoft.com
 
 > [!NOTE]
-> Always validate and allow all trusted URLs for Teams and the requirements from the following document: [Office 365 URLs and IP address ranges.](/office365/enterprise/urls-and-ip-address-ranges)
+> Always validate and allow all trusted URLs for Teams and the requirements from the following document: [Microsoft 365 URLs and IP address ranges.](/office365/enterprise/urls-and-ip-address-ranges)
 
 ## More information
 

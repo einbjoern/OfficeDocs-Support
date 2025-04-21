@@ -3,26 +3,25 @@ title: Security settings for Dynamic Data Exchange in Excel Trust Center
 description: Describes two new security options under Security Settings for Dynamic Data Exchange (DDE) in Excel Trust Center.
 author: helenclu
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
 ms.topic: troubleshooting
 ms.author: luche
-ms.custom: CSSTroubleshoot
+ms.custom: 
+  - Security\Trust
+  - CSSTroubleshoot
 appliesto: 
-  - Excel for Office 365
+  - Excel for Microsoft 365
   - Excel 2019
-ms.date: 3/31/2022
+ms.date: 06/06/2024
 ---
 
-# Security settings for Dynamic Data Exchange in Excel Trust Center in Office 365
-
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
+# Security settings for Dynamic Data Exchange in Excel Trust Center in Microsoft 365
 
 ## Summary
 
-Two new security options are now included in the Excel Trust Center in Office 365 under the **Security Settings for Dynamic Data Exchange** heading:
+Two new security options are now included in the Excel Trust Center in Microsoft 365 under the **Security Settings for Dynamic Data Exchange** heading:
 
 - Enable Dynamic Data Exchange Server Lookup
 - Enable Dynamic Data Exchange Server Launch (not recommended)

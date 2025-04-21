@@ -1,13 +1,13 @@
 ---
 title: Outlook for iOS and Android with ABQ rules are quarantined
 description: Describes a problem in which Exchange Online users who use Outlook for iOS and Android and who also use Device Access (ABQ) rules are unexpectedly quarantined.
-author: helenclu
-ms.author: luche
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
 ms.custom: 
+  - sap:Product Features and How-to Issues\How-to and general questions
   - Outlook for iOS and Android
   - CSSTroubleshoot
 ms.reviewer: jchenau
@@ -16,7 +16,7 @@ appliesto:
   - Outlook for Android
   - Exchange Online
 search.appverid: MET150
-ms.date: 3/31/2022
+ms.date: 01/30/2024
 ---
 # Users who use Outlook for iOS and Android and Device Access (ABQ) rules are unexpectedly quarantined
 
@@ -32,7 +32,7 @@ Exchange Online users who use Outlook for iOS and Android and who also use Devic
 
 ## Cause
 
-A back-end protocol change in how Office 365 mailbox data is accessed through Outlook for iOS and Android applications changes the DeviceID that the app uses to connect to Exchange Online. The expected behavior is that the new DeviceID will automatically be added to the `ActiveSyncAllowedDeviceID` for the user. But in certain scenarios, the device may be quarantined. In such cases, follow the steps in the Resolution section. This issue is not expected to occur repeatedly.
+A back-end protocol change in how Microsoft 365 mailbox data is accessed through Outlook for iOS and Android applications changes the DeviceID that the app uses to connect to Exchange Online. The expected behavior is that the new DeviceID will automatically be added to the `ActiveSyncAllowedDeviceID` for the user. But in certain scenarios, the device may be quarantined. In such cases, follow the steps in the Resolution section. This issue is not expected to occur repeatedly.
 
 ## Resolution
 

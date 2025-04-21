@@ -1,12 +1,11 @@
 ---
 title: Determine the license type of your Microsoft Office product
-ms.author: v-maqiu
-author: MaryQiu1987
+ms.author: luche
+author: helenclu
 manager: dcscontentpm
 ms.date: 04/02/2021
 audience: Admin
 ms.topic: troubleshooting
-localization_priority: Normal
 search.appverid: 
   - SPO160
   - MET150
@@ -27,7 +26,7 @@ appliesto:
   - Word 2019 for Mac
   - Office for Business
   - Microsoft 365 for Home
-  - Office 365 Small Business
+  - Microsoft 365 Small Business
   - Office 2016 for Mac
   - Microsoft 365 for Mac
   - Outlook 2019 for Mac

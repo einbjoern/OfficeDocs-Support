@@ -1,23 +1,21 @@
 ---
 title: Can't open an IRM-protected document with sign-in prompts
 description: If a domain has Conditional Access requirements, the authentication may fail so that you can't open the IRM-protected content.
-author: MaryQiu1987
+author: helenclu
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
-ms.custom: CSSTroubleshoot
+ms.custom: 
+  - CSSTroubleshoot
 ms.topic: troubleshooting
-ms.author: v-maqiu
+ms.author: luche
 appliesto: 
-  - Office 365
-ms.date: 3/31/2022
+  - Microsoft 365
+ms.date: 03/31/2022
 ---
 
 # Credentials don't work for IRM-protected content
-
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
 
 ## Symptoms
 

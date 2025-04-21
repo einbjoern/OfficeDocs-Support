@@ -1,12 +1,11 @@
 ---
 title: Unable to print or preview a report
 description: Describes a problem that occurs when you try to print or preview the report, and then you move between the report pages. You receive a No current record error message.
-author: MaryQiu1987
-ms.author: v-maqiu
+author: helenclu
+ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
 ms.custom: 
   - CI 114797
   - CSSTroubleshoot
@@ -15,11 +14,9 @@ appliesto:
   - Microsoft Office Access 2007
   - Microsoft Office Access 2003
 search.appverid: MET150
-ms.date: 3/31/2022
+ms.date: 03/31/2022
 ---
 # "No current record" error when you print or preview a report in Access
-
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
 
 _Original KB number:_ &nbsp; 888635
 

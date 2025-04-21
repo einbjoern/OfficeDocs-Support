@@ -1,26 +1,24 @@
 ---
 title: We can't start this app when installing an Office add-in
 description: Describes an issue that installing an Office Add-in from the Office Store fails with error.
-author: MaryQiu1987
+author: helenclu
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
-ms.custom: CSSTroubleshoot
+ms.custom: 
+  - CSSTroubleshoot
 ms.topic: troubleshooting
-ms.author: v-maqiu
+ms.author: luche
 appliesto: 
   - Microsoft 365 Apps
   - Office LTSC 2021
   - Office 2019
   - Office 2016
   - Office 2013
-ms.date: 3/31/2022
+ms.date: 03/31/2022
 ---
 # "We can't start this app..." error installing an Office add-in
-
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
 
 ## Symptoms
 

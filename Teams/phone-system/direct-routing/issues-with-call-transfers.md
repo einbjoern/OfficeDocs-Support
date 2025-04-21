@@ -1,13 +1,13 @@
 ---
 title: Issues with call transfers
 description: Troubleshoot issues affecting call transfers that are initiated by Microsoft.
-author: MaryQiu1987
-ms.author: v-maqiu
+author: helenclu
+ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
 ms.custom: 
+  - sap:Teams Calling (PSTN)\Direct Routing
   - CI 150733
   - CSSTroubleshoot
 ms.reviewer: mikebis
@@ -15,7 +15,7 @@ appliesto:
   - Microsoft Teams
 search.appverid: 
   - MET150
-ms.date: 3/31/2022
+ms.date: 10/30/2023
 ---
 # Issues that affect call transfers
 

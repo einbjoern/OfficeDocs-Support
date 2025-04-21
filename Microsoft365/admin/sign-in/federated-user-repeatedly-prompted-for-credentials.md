@@ -1,35 +1,33 @@
 ---
 title: A federated user is repeatedly prompted for credentials during sign-in
-description: Describes an issue in which a federated user is repeatedly prompted for credentials when the user tries to log on to the AD FS service endpoint during sign-in to Office 365, Azure, or Microsoft Intune. When the user cancels, the user gets an Access Denied error message. Provides a resolution.
-author: MaryQiu1987
+description: Describes an issue in which a federated user is repeatedly prompted for credentials when the user tries to log on to the AD FS service endpoint during sign-in to Microsoft 365, Azure, or Microsoft Intune. When the user cancels, the user gets an Access Denied error message. Provides a resolution.
+author: helenclu
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
 ms.topic: troubleshooting
-ms.author: v-maqiu
-ms.custom: CSSTroubleshoot
+ms.author: luche
+ms.custom: 
+  - CSSTroubleshoot
 appliesto: 
   - Cloud Services (Web roles/Worker roles)
   - Azure Active Directory
-  - Office 365
+  - Microsoft 365
   - Microsoft Intune
   - CRM Online via Office 365 E Plans
-  - Azure Backup, Office 365 Identity Management
-ms.date: 3/31/2022
+  - Azure Backup
+ms.date: 03/31/2022
 ---
 
-# A federated user is repeatedly prompted for credentials during sign-in to Office 365, Azure or Intune
-
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
+# A federated user is repeatedly prompted for credentials during sign-in to Microsoft 365, Azure or Intune
 
 > [!IMPORTANT]
 > This article contains information that shows you how to help lower security settings or how to turn off security features on a computer. You can make these changes to work around a specific problem. Before you make these changes, we recommend that you evaluate the risks that are associated with implementing this workaround in your particular environment. If you implement this workaround, take any appropriate additional steps to help protect the computer.
 
 ## Problem
 
-A federated user is repeatedly prompted for credentials when the user tries to authenticate to the Active Directory Federation Services (AD FS) service endpoint during sign-in to a Microsoft cloud service such as Office 365, Microsoft Azure, or Microsoft Intune. When the user cancels, the user receives the **Access Denied** error message.
+A federated user is repeatedly prompted for credentials when the user tries to authenticate to the Active Directory Federation Services (AD FS) service endpoint during sign-in to a Microsoft cloud service such as Microsoft 365, Microsoft Azure, or Microsoft Intune. When the user cancels, the user receives the **Access Denied** error message.
 
 ## Cause
 
@@ -50,7 +48,7 @@ The symptom indicates an issue with Windows Integrated authentication with AD FS
 
       For more information, see the following Microsoft Knowledge Base article:
 
-      [2510193](https://support.microsoft.com/help/2510193) Supported scenarios for using AD FS to set up single sign-on in Office 365, Azure, or Intune
+      [2510193](https://support.microsoft.com/help/2510193) Supported scenarios for using AD FS to set up single sign-on in Microsoft 365, Azure, or Intune
   - A monitoring or SSL decryption application is installed or is active on the client computer
 
 - Domain Name System (DNS) resolution of the AD FS service endpoint was performed through CNAME record lookup instead of through an A record lookup.
@@ -304,6 +302,6 @@ For more information about the Set-ADFSProperties cmdlet, go to the following Mi
 
 [Set-ADFSProperties](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee892317(v=technet.10))
 
-Still need help? Go to [Microsoft Community](https://answers.microsoft.com/) or the [Azure Active Directory Forums](https://social.msdn.microsoft.com/forums/azure/home?forum=windowsazuread) website.
+Still need help? Go to [Microsoft Community](https://answers.microsoft.com/) or the [Microsoft Entra Forums](https://social.msdn.microsoft.com/forums/azure/home?forum=windowsazuread) website.
 
 The third-party products that this article discusses are manufactured by companies that are independent of Microsoft. Microsoft makes no warranty, implied or otherwise, about the performance or reliability of these products.

@@ -1,13 +1,13 @@
 ---
 title: How time zone normalization works
 description: This article introduces how time zone normalization works in Microsoft Outlook.
-author: helenclu
-ms.author: luche
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
 ms.custom: 
+  - sap:Calendar\Meetings are off by one hour (DST related)
   - Outlook for Windows
   - CSSTroubleshoot
 ms.reviewer: gregmans, jel, sercast
@@ -16,19 +16,15 @@ appliesto:
   - Outlook 2016
   - Outlook 2013
   - Microsoft Outlook 2010
-  - Outlook for Office 365
+  - Outlook for Microsoft 365
 search.appverid: MET150
-ms.date: 3/31/2022
+ms.date: 03/19/2025
 ---
 # How time zone normalization works in Microsoft Outlook
 
 _Original KB number:_ &nbsp; 2642044
 
-## Summary
-
 Although *time* may seem like a simple human concept that lets everyone across the globe receive a meeting request and then attend the meeting at the same time, the concept is actually very complex. This article describes how Microsoft Outlook 2010 and later versions achieve this goal by using a combination of items such as Coordinated Universal Time (UTC), time zone offset, daylight saving time (DST) rules, and Windows time zone settings.
-
-## More information
 
 Before we examine the details of how time zone normalization works in Outlook, it is important to define some important terms.
 

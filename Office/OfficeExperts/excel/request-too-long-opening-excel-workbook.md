@@ -1,18 +1,21 @@
 ---
 title: Request Was Taking Too Long when you open a workbook in Excel Online
 description: You can't open a workbook in Excel Online if the workbook takes longer than 30 seconds to open.
-author: MaryQiu1987
+author: helenclu
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
-ms.custom: sap:office-experts, CSSTroubleshoot
+ms.custom: 
+  - Open\Errors
+  - sap:office-experts
+  - CSSTroubleshoot
 ms.topic: troubleshooting
-ms.author: thempel
+ms.author: luche
+ms.reviewer: thempel
 appliesto: 
   - Excel Online
-ms.date: 3/31/2022
+ms.date: 06/06/2024
 ---
 
 # "Request Was Taking Too Long" when you open a workbook in Excel Online

@@ -3,16 +3,17 @@ title: Error after you accept an invite to a SharePoint
 description: This article introduces that using relative URLs for content types across site collections is not supported.
 author: helenclu
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
 ms.topic: troubleshooting
 ms.author: luche
-ms.custom: CSSTroubleshoot
+ms.custom: 
+  - sap:Sharing\Errors
+  - CSSTroubleshoot
 appliesto: 
   - SharePoint Online
-ms.date: 3/31/2022
+ms.date: 12/17/2023
 ---
 
 # "We're unable to complete your request" after you accept an invite to a SharePoint Online resource
@@ -39,7 +40,7 @@ Microsoft account is experiencing technical problems. Please try again later.
 
 ## Solution
 
-To work around this issue, advise the user to use the new Microsoft account that he or she created to sign in to the site, as follows:
+To work around this issue, advise the user to use the new Microsoft account that's created to sign in to the site, as follows:
 
 1. View the email invitation for the SharePoint Online resource, and then click the link to the shared content.
 

@@ -3,22 +3,21 @@ title: We are unable to connect right now when try to activate Microsoft 365 App
 description: Describes an issue that triggers an error message when users try to activate Microsoft 365 Apps for enterprise. Provides a workaround.
 author: helenclu
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
 ms.topic: troubleshooting
 ms.author: luche
-ms.custom: CSSTroubleshoot
+ms.custom: 
+  - sap:Office Suite (Access, Excel, OneNote, PowerPoint, Publisher, Word, Visio)\Installation, Update, Deployment,  Activation
+  - Activation\Errors\Unable to connect
+  - CSSTroubleshoot
 appliesto: 
   - Microsoft 365 Apps for enterprise
-  - Office 365 Identity Management
-ms.date: 3/31/2022
+ms.date: 02/11/2025
 ---
 
 # "We are unable to connect right now" error when users try to activate Microsoft 365 Apps for enterprise
-
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
 
 ## Symptoms
 
@@ -30,7 +29,7 @@ When you set up your network to block Internet Explorer 6, users discover that t
 
 This issue occurs under one of the following situations:
 
-- The client computer can't connect to *.microsoftonline-p.net.
+- The client computer can't connect to `*.microsoftonline-p.net`.
 - Network Connectivity Status Indicator (NCSI) active probe is disabled.
 
 ## Workaround
@@ -58,6 +57,6 @@ Value: Disabled
 
 ## More information
 
-For more information about Office 365 activation issues, see [Office 365: Use the Support and Recovery Assistant for Office 365](https://support.office.com/article/unlicensed-product-and-activation-errors-in-office-0d23d3c0-c19c-4b2f-9845-5344fedc4380).
+For more information about Microsoft 365 activation issues, see [Unlicensed Product and activation errors in Office](https://support.office.com/article/unlicensed-product-and-activation-errors-in-office-0d23d3c0-c19c-4b2f-9845-5344fedc4380).
 
 Still need assistance? Ask for help in the [Microsoft Community](https://answers.microsoft.com/).

@@ -1,13 +1,13 @@
 ---
 title: Duplicate is displayed in the ERROR column for two or more objects
 description: Fixes a problem that duplicate is displayed in the ERROR column when you run the IdFix DirSync Error Remediation Tool in your on-premises AD DS environment.
-author: MaryQiu1987
+author: helenclu
 manager: dcscontentpm
-localization_priority: Normal
 audience: ITPro
 ms.topic: troubleshooting
-ms.author: v-maqiu
-ms.custom: CSSTroubleshoot
+ms.author: luche
+ms.custom: 
+  - CSSTroubleshoot
 ms.reviewer: v-chblod, willfid
 search.appverid: 
   - MET150
@@ -16,13 +16,11 @@ appliesto:
   - Azure Active Directory
   - Microsoft Intune
   - Azure Backup
-  - Office 365 Identity Management
-ms.date: 3/31/2022
+  - Microsoft 365
+ms.date: 03/31/2022
 ---
 
 # "Duplicate" is displayed in the ERROR column for two or more objects after you run the IdFix tool
-
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
 
 ## Problem
 
@@ -40,4 +38,4 @@ To resolve this problem, specify a unique email address for the object. To do th
 
 ## More information
 
-Still need help? Go to [Microsoft Community](https://answers.microsoft.com/) or the [Azure Active Directory Forums](https://social.msdn.microsoft.com/forums/azure/home?forum=windowsazuread) website.
+Still need help? Go to [Microsoft Community](https://answers.microsoft.com/) or the [Microsoft Entra Forums](https://social.msdn.microsoft.com/forums/azure/home?forum=windowsazuread) website.

@@ -1,28 +1,28 @@
 ---
 title: Cannot create a new message from Outlook Web App
-description: Describes an issue in which no message window appears when you select the OWA new message button in Office 365. Provides a resolution.
-author: simonxjx
-ms.author: v-six
+description: Describes an issue in which no message window appears when you select the OWA new message button in Microsoft 365. Provides a resolution.
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
 ms.custom: 
+  - sap:Outlook on the web / OWA
   - Exchange Online
   - CSSTroubleshoot
-ms.reviewer: sapadman
+ms.reviewer: sapadman, v-six
 appliesto: 
   - Exchange Online
 search.appverid: MET150
-ms.date: 3/31/2022
+ms.date: 01/24/2024
 ---
-# You can't create a new message from Outlook Web App in Office 365
+# You can't create a new message from Outlook Web App in Microsoft 365
 
 _Original KB number:_ &nbsp; 2949841
 
 ## Symptoms
 
-When you select the **New** button to create a new message in Microsoft Outlook Web App (OWA) in Office 365, no message window appears. However, you can respond to the existing email messages in OWA and can also open a new message window from the Outlook client.
+When you select the **New** button to create a new message in Microsoft Outlook Web App (OWA) in Microsoft 365, no message window appears. However, you can respond to the existing email messages in OWA and can also open a new message window from the Outlook client.
 
 ## Cause
 

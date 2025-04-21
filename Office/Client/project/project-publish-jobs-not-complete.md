@@ -3,22 +3,20 @@ title: Project Publish jobs process remains at 80 percent for a long time
 description: Resolves an issue in which Project Publish jobs remain at 80 percent for a long time before being completed.
 author: helenclu
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
 ms.topic: troubleshooting
 ms.author: luche
-ms.custom: CSSTroubleshoot
+ms.custom: 
+  - CSSTroubleshoot
 appliesto: 
   - Project Online
   - Project Server 2013
-ms.date: 3/31/2022
+ms.date: 03/31/2022
 ---
 
 # Project Publish jobs remain at 80 percent for a long time before completing
-
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
 
 ## Symptoms
 
@@ -110,4 +108,4 @@ Next, we will create a new Enterprise Project Type (EPT), and then pair it with 
    2. In the **New Project Page** box, select **Project Information**.   
    3. In the **Available Project Detail Pages** box, select **Schedule, Project Details**.   
    4. In the **Project Site Template** box, select the **Project Site with No Tasks** list. Click **Save** to save the new EPT.   
-4. Now, try and create a new Enterprises Project. Browse to the Project site, and then verify that the Tasks list is no longer there.   
+4. Now, try and create a new Enterprises Project. Browse to the Project site, and then verify that the Tasks list is no longer there.

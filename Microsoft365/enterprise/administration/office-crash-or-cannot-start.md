@@ -1,15 +1,15 @@
 ---
 title: Office Applications crash or cannot start
 description: Workarounds an issue that Office applications crash or cannot start.
-author: MaryQiu1987
+author: helenclu
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
 ms.topic: troubleshooting
-ms.author: v-maqiu
-ms.custom: CSSTroubleshoot
+ms.author: luche
+ms.custom: 
+  - CSSTroubleshoot
 appliesto: 
   - Excel 2016
   - Outlook 2016
@@ -20,12 +20,10 @@ appliesto:
   - Access 2016
   - OneNote 2016
   - Project Standard 2016
-ms.date: 3/31/2022
+ms.date: 03/31/2022
 ---
 
 # Office Applications crash or cannot start
-
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
 
 > [!NOTE]
 > **This article only addresses the crash scenario where mso30win32client.dll is the module name in a crash signature.**

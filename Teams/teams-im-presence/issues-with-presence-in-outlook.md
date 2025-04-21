@@ -2,21 +2,21 @@
 title: User presence status issues in Outlook
 description: Fixes an issue in which the status of a user presence is displayed incorrectly.
 author: helenclu
-ms.author: premgan
+ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
 ms.custom: 
+  - sap:Teams People & Presence\Presence from Outlook (Free/Busy)
   - CI 126269
   - CSSTroubleshoot
-ms.reviewer: sylviebo
+ms.reviewer: sylviebo, premgan
 appliesto: 
   - Microsoft Teams
   - Outlook
 search.appverid: 
   - MET150
-ms.date: 3/31/2022
+ms.date: 02/27/2025
 ---
 # User presence status issues in Outlook
 
@@ -28,14 +28,25 @@ You see any of the following issues when you check the presence status for a use
 - The displayed presence is incorrect.
 - The presence status is **Status unknown**.
 
-  > [!NOTE]
-  > Outlook currently shows **Status unknown** for federated (external) Teams contacts.
-
 ## Resolution
 
-To fix these issues, download and run [Microsoft Support and Recovery Assistant](https://aka.ms/SaRA-TeamsPresenceScenario) for automated troubleshooting steps and fixes.
+### Run the Classic Teams User Presence troubleshooter in Get Help
 
-Or, follow these manual steps and check whether the issue is resolved after each step:
+[!INCLUDE [Get Help troubleshooter note](../../includes/sara-note-new-teams.md)]
+
+The [Classic Teams User Presence troubleshooter](https://aka.ms/SaRA-TeamsPresence-sarahome) helps you resolve inaccurate user presence status information that's displayed in classic Outlook.
+
+To run the troubleshooter, follow these steps:
+
+1. Start the Get Help app.
+1. On the **Search** bar, enter *Issues with Teams user presence in Outlook*.
+1. Follow the instructions in the Get Help app to run the troubleshooter.
+
+After the troubleshooter finishes, it displays the results and provides additional information about how to resolve the issue.
+
+### Fix the issue manually
+
+Follow these manual steps and check whether the issue is resolved after each step:
 
 1. Make sure that the Teams app is installed on your computer. For more information, see [How do I get Microsoft Teams](https://support.microsoft.com/office/how-do-i-get-microsoft-teams-fc7f1634-abd3-4f26-a597-9df16e4ca65b).
 
@@ -81,7 +92,7 @@ Or, follow these manual steps and check whether the issue is resolved after each
 
 6. Check that all the following registry subkeys are correct for the version of Office that you’re running. If not, fix the incorrect entry to match the following values.
 
-    ### [For 64-bit Office](#tab/64)
+    #### [For 64-bit Office](#tab/64)
 
       |For 64-bit Office|
       |-|
@@ -90,7 +101,7 @@ Or, follow these manual steps and check whether the issue is resolved after each
       |Subkey: `HKEY_CURRENT_USER\Software\Classes\TypeLib\{B9AA1F11-F480-4054-A84E-B5D9277E40A8}\1.0\FLAGS`<br/>**Name**: (Default)<br/>**Type**: REG_SZ<br/>**Data**: 0|
       |Subkey: `HKEY_CURRENT_USER\Software\Classes\TypeLib\{B9AA1F11-F480-4054-A84E-B5D9277E40A8}\1.0\HELPDIR`<br>**Name**: (Default)<br>**Type**: REG_SZ<br>**Data**: `C:\Users\<username>\AppData\Local\Microsoft\TeamsPresenceAddin\Uc.tlb`|
 
-    ### [For 32-bit Office](#tab/32)
+    #### [For 32-bit Office](#tab/32)
 
       |For 32-bit Office|
       |-|
@@ -99,12 +110,11 @@ Or, follow these manual steps and check whether the issue is resolved after each
       |Subkey: `HKEY_CURRENT_USER\Software\Classes\TypeLib\{B9AA1F11-F480-4054-A84E-B5D9277E40A8}\1.0\FLAGS`<br>**Name**: (Default)<br>**Type**: REG_SZ<br>**Data**: 0|
       |Subkey: `HKEY_CURRENT_USER\Software\Classes\TypeLib\{B9AA1F11-F480-4054-A84E-B5D9277E40A8}\1.0\HELPDIR`<br>**Name**: (Default)<br>**Type**: REG_SZ<br>**Data**: `C:\Users\<username>\AppData\Local\Microsoft\TeamsPresenceAddin\Uc.win32.tlb`|
 
-
 7. If the issue persists, uninstall and re-install Teams. For more information about how to uninstall the Teams app, see [Uninstall or remove apps and programs in Windows 10](https://support.microsoft.com/windows/uninstall-or-remove-apps-and-programs-in-windows-10-4b55f974-2cc6-2d2b-d092-5905080eaf98). To re-install Teams, see [How do I get Microsoft Teams](https://support.microsoft.com/office/how-do-i-get-microsoft-teams-fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 ### Contact an administrator
 
-If these steps don’t resolve the issue, an administrator should create a support request in the Teams Admin Center, and provide the following information:
+If these steps don't resolve the issue, an administrator should create a support request in the Teams Admin Center, and provide the following information:
 
 - The sign-in address of the user who is experiencing the issue and seeing an inaccurate presence status for a contact.
 
@@ -113,3 +123,9 @@ If these steps don’t resolve the issue, an administrator should create a suppo
 - The desktop and web logs from both the user and the contact. For information about how to collect logs, see [Use log files in troubleshooting Microsoft Teams](/microsoftteams/log-files).
 
   - For presence issues that affect contacts who are internal to your organization, provide the output from running Microsoft Support and Recovery Assistant.
+
+## Known issues
+
+- Outlook currently shows **Status unknown** for federated (external) Teams contacts.
+- In the 32-bit version of Outlook, the presence status icons related to "Out of Office" aren't currently displayed.
+- When a user sets up automatic Out of Office replies in Outlook, the presence status icon in Outlook doesn't match Teams. Others see the presence status of this user as *Away* or *Offline* in Outlook, but as *Out of Office* in Teams.  

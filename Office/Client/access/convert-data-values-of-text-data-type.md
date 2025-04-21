@@ -3,7 +3,6 @@ title: Convert Text data type to proper case format
 description: Decribes two step-by-step methods to convert data values of the Text data type to the proper case format in Microsoft Access.
 author: helenclu
 manager: dcscontentpm
-localization_priority: Normal
 ms.custom: 
   - CI 111294
   - CSSTroubleshoot
@@ -16,12 +15,10 @@ appliesto:
   - Access 2007
   - Access 2003
   - Access 2002
-ms.date: 3/31/2022
+ms.date: 06/06/2024
 ---
 
 # How to convert data values of the Text data type to the proper case format in Microsoft Access
-
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
 
 Moderate: Requires basic macro, coding, and interoperability skills.
 

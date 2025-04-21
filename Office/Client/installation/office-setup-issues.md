@@ -3,12 +3,14 @@ title: How to use a setup log to troubleshoot setup problems in Office
 description: Explains how to use Office installation log files to troubleshoot Office setup issues.
 author: helenclu
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
 ms.topic: troubleshooting
-ms.custom: CSSTroubleshoot
+ms.custom: 
+  - sap:Office Suite (Access, Excel, OneNote, PowerPoint, Publisher, Word, Visio)\Installation, Update, Deployment,  Activation
+  - DownloadInstall\SxS\SxSOrPerpetual
+  - CSSTroubleshoot
 ms.author: luche
 appliesto: 
   - Office Professional 2010
@@ -27,12 +29,10 @@ appliesto:
   - Microsoft Office Small Business Edition 2003
   - Microsoft Office Basic Edition 2003
   - Microsoft Office Access 2003
-ms.date: 3/31/2022
+ms.date: 06/06/2024
 ---
 
 # How to use a setup log to troubleshoot setup problems in Office
-
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
 
 This step-by-step article describes how to use the Microsoft Office installation log files to troubleshoot Office Setup issues.
 
@@ -44,7 +44,7 @@ Many articles in the Microsoft Knowledge Base that relate to installation errors
 
 ## How to create a log file
 
-Office Setup automatically creates log files in your \Temp folder. The logs will be stored under %temp% for Sign-in or Activation issues. For installation or patching issues, they use the system account, so you will also want to collect the logs from %windir%\temp. For more information, see [How to enable Microsoft 365 Apps for enterprise ULS logging](/office365/troubleshoot/authentication/how-to-enable-office-365-proplus-uls-logging).
+Office Setup automatically creates log files in your \Temp folder. The logs will be stored under %temp% for Sign-in or Activation issues. For installation or patching issues, they use the system account, so you will also want to collect the logs from %windir%\temp. For more information, see [How to enable Microsoft 365 Apps for enterprise ULS logging](/microsoft-365/troubleshoot/authentication/how-to-enable-office-365-proplus-uls-logging).
 
 |Log file for|Log file name
 |---|---|

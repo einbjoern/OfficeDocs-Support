@@ -1,18 +1,22 @@
 ---
 title: Troubleshooting Office installation errors
 description: Describes techniques on how to determine and fix Microsoft Office installation failures.
-author: MaryQiu1987
+author: helenclu
+ms.author: luche
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
 ms.topic: troubleshooting
-ms.author: ericspli
-ms.custom: sap:office-experts, CSSTroubleshoot
+ms.reviewer: ericspli
+ms.custom: 
+  - sap:Office Suite (Access, Excel, OneNote, PowerPoint, Publisher, Word, Visio)\Installation, Update, Deployment,  Activation
+  - DownloadInstall\SxS\SxSOrPerpetual
+  - sap:office-experts
+  - CSSTroubleshoot
 appliesto: 
   - Microsoft Office
-ms.date: 3/31/2022
+ms.date: 06/06/2024
 ---
 
 # Troubleshooting Office installation failures

@@ -1,22 +1,22 @@
 ---
 title: The underlying connection was closed error
 description: Describes an issue in which you receive an An error occurred accessing Windows Live error when you run the Hybrid Configuration wizard.
-author: simonxjx
-ms.author: v-six
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
 ms.custom: 
+  - sap:Hybrid
   - Exchange Hybrid
   - CSSTroubleshoot
-ms.reviewer: timothyh
+ms.reviewer: timothyh, v-six
 appliesto: 
   - Exchange Online
   - Exchange Server 2013 Enterprise
   - Exchange Server 2013 Standard Edition
 search.appverid: MET150
-ms.date: 3/31/2022
+ms.date: 01/24/2024
 ---
 # (The underlying connection was closed) error when running Hybrid Configuration wizard
 
@@ -35,11 +35,11 @@ at Microsoft.Exchange.Management.Hybrid.RemotePowershellSession.RunCommand(Strin
 
 ## Cause
 
-This can occur if proxy settings are configured incorrectly. For example, this can occur proxy settings do not allow access to the endpoints that are used by Microsoft Office 365.
+This can occur if proxy settings are configured incorrectly. For example, this can occur proxy settings do not allow access to the endpoints that are used by Microsoft 365.
 
 ## Resolution
 
-1. Configure the settings on the proxy server to allow access to the endpoints that are used by the service. For a list of IP addresses and URLs that are used by Microsoft Exchange Online, see the Exchange Online section of [Office 365 URLs and IP addresses](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#bkmk_exo&preserve-view=true).
+1. Configure the settings on the proxy server to allow access to the endpoints that are used by the service. For a list of IP addresses and URLs that are used by Microsoft Exchange Online, see the Exchange Online section of [Microsoft 365 URLs and IP addresses](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#bkmk_exo&preserve-view=true).
 
 2. Make sure that proxy settings are configured correctly on the Exchange servers in your environment by doing the following:
    1. Set the proxy in Internet Explorer.

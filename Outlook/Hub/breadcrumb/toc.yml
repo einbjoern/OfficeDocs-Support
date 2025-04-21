@@ -1,3 +1,11 @@
-- name: Outlook Troubleshooting
+- name: Learn
   tocHref: /
-  topicHref: /outlook/troubleshoot/index
+  topicHref: /
+  items:
+  - name: Microsoft Outlook
+    tocHref: /outlook/
+    topicHref: /outlook/index
+    items:
+    - name: Troubleshooting
+      tocHref: /outlook/troubleshoot/
+      topicHref: /outlook/troubleshoot/index

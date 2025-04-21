@@ -1,23 +1,21 @@
 ---
 title: Use third-party network devices or solutions with Microsoft 365
 description: Recommendations and support position to use advanced network solutions for active decryption, filtering, inspection functions, and other protocol-level or content-level action on Microsoft 365 user traffic.
-author: MaryQiu1987
+author: helenclu
 manager: dcscontentpm
-localization_priority: Normal
 audience: ITPro
 ms.topic: troubleshooting
-ms.custom: CSSTroubleshoot
-ms.author: v-maqiu
+ms.custom: 
+  - CSSTroubleshoot
+ms.author: luche
 search.appverid: 
   - MET150
 appliesto: 
   - Microsoft 365
-ms.date: 3/31/2022
+ms.date: 03/31/2022
 ---
 
 # Using third-party network devices or solutions with Microsoft 365
-
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
 
 ## Summary
 

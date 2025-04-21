@@ -1,13 +1,13 @@
 ---
-title: Outlook crash or stop responding when used with Office 365
-description: Describes how to troubleshoot issues that trigger Outlook crashes when you use Outlook in an Office 365 environment.
-author: simonxjx
+title: Outlook crash or stop responding when used with Microsoft 365
+description: Describes how to troubleshoot issues that trigger Outlook crashes when you use Outlook in a Microsoft 365 environment.
+author: cloud-writer
+ms.author: meerak
 audience: ITPro
 ms.topic: troubleshooting
-ms.author: v-six
 manager: dcscontentpm
-localization_priority: Normal
 ms.custom: 
+  - sap:Client Connectivity
   - Exchange Online
   - CSSTroubleshoot
   - SaRA-OutlookWontStart
@@ -20,13 +20,14 @@ appliesto:
   - Outlook 2016
   - Outlook 2013
   - Microsoft Outlook 2010
-ms.date: 3/31/2022
+ms.date: 01/24/2024
+ms.reviewer: v-six
 ---
-# How to troubleshoot issues that cause Outlook to crash or stop responding when used with Office 365
+# How to troubleshoot issues that cause Outlook to crash or stop responding when used with Microsoft 365
 
 ## Introduction
 
-This article describes how to troubleshoot the following kinds of issues in Microsoft Outlook when it's used together with Office 365:
+This article describes how to troubleshoot the following kinds of issues in Microsoft Outlook when it's used together with Microsoft 365:
 
 - Outlook stops responding (hangs).
 - Outlook crashes even though you aren't actively using it.
@@ -34,7 +35,7 @@ This article describes how to troubleshoot the following kinds of issues in Micr
   
 ## Procedure
 
-To help troubleshoot Outlook issues in an Office 365 environment, follow these steps.
+To help troubleshoot Outlook issues in a Microsoft 365 environment, follow these steps.
 
 ### Step 1: Investigate possible issues caused by add-ins
 
@@ -56,11 +57,13 @@ To help troubleshoot Outlook issues in an Office 365 environment, follow these s
 
 ### Step 3: Run Outlook Diagnostics
 
-1. Run the [Outlook won't start](https://aka.ms/SaRA-OutlookWontStart) automated diagnostics to fix the issues.
+1. Run the [Classic Outlook Connectivity troubleshooter](https://aka.ms/SaRA-OutlookDisconnect-sarahome) to fix the issues.
 
     > [!NOTE]
-    > Click **Run** when you're prompted by your browser.
-2. If the tool doesn't resolve the issue, go to Windows or Look to start **Microsoft Support and Recovery Assistant for Office 365 (SaRA)**.
+    >
+    > - The troubleshooter doesn't work in new Outlook for Windows.
+    > - To run the troubleshooter, make sure that you're using the same Windows device that classic Outlook is installed on. Additionally, make sure that your device is running Windows 10 or a later version.
+2. If the tool doesn't resolve the issue, use the [Microsoft Support and Recovery Assistant](https://support.microsoft.com/office/about-the-microsoft-support-and-recovery-assistant-e90bb691-c2a7-4697-a94f-88836856c72f#ID0ED6=Outlook).
 3. On the first screen, select **Outlook**, and then select **Next**.
 4. Select any of the following options, as appropriate, and then select **Next**:
    - **Outlook keeps hanging or freezing**
@@ -87,12 +90,25 @@ To help troubleshoot Outlook issues in an Office 365 environment, follow these s
 8. When you're prompted, enter your logon credentials, and then click **OK**.
 9. When Setup is finished, click **Finish**.
 
-### Step 5: Run SaRA Advanced Diagnostics before you contact Support
+### Step 5: Run the Classic Outlook Advanced Diagnostics troubleshooter
 
-This step creates detailed information about your Outlook configuration and provides solutions for any known issues that are detected. It also gives you the option to upload your results to Microsoft so that a Support engineer can review them before you make a Support call.
+The Classic Outlook Advanced Diagnostis troubleshooter generates a detailed classic Outlook configuration report.
 
-1. Click [Outlook Advanced Diagnostics](https://aka.ms/SaRA-OutlookAdvDiagnostics).
-2. Click **Run** when you are prompted by your browser.
+> [!NOTE]
+>
+> - The troubleshooter doesn't work in new Outlook for Windows.
+> - To run the troubleshooter, make sure that you're using the same Windows device that classic Outlook is installed on. Additionally, make sure that your device is running Windows 10 or a later version.
+
+To run the troubleshooter, follow these steps:
+
+1. Select the following button to start the troubleshooter.
+
+   > [!div class="nextstepaction"]
+   > [Classic Outlook Advanced Diagnostics troubleshooter](https://aka.ms/SaRA-OutlookAdvDiagExpExp-sarahome)
+   If you receive a pop-up window that displays "This site is trying to open Get Help.", select **Open**.
+1. Follow the instructions in the Get Help app to run the troubleshooter.
+
+After the troubleshooter finishes, it displays the results and provides additional information about how to resolve the issue.
 
 ## More information
 

@@ -3,23 +3,21 @@ title: Create a report template in Project 2013
 description: Describes two methods to create a report template in Project 2013.
 author: helenclu
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
 ms.topic: troubleshooting
 ms.author: luche
-ms.custom: CSSTroubleshoot
+ms.custom: 
+  - CSSTroubleshoot
 ms.reviewer: AikChen, TBennett, xl15beta
 appliesto: 
   - Project Professional 2013
   - Project 2013 Standard
-ms.date: 3/31/2022
+ms.date: 03/31/2022
 ---
 
 # How to create a report template in Project 2013
-
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
 
 ## Introduction 
 
@@ -40,10 +38,11 @@ To create a new report template to use with other project plans, use one of the 
 ### Method 2
 
 1. Click **New Report** on the REPORT tab in Project 2013, select a kind of report, and then name the report.    
-2. Customize the report, and then save the report to the Global.mpt file.   
+2. Customize the report, and then save the report to the Global.mpt file.
 
 > [!NOTE]
+>
 > - The Global.mpt file is installed in the following location:
 >
->    \<system device>:\Users\\\<your login name>\AppData\Roaming\Microsoft\MS Project\15\1033   
-> - You can share the Global.mpt file with other users so that they can access the new report also.   
+>    \<system device\>:\Users\\\<your login name\>\AppData\Roaming\Microsoft\MS Project\15\1033
+> - You can share the Global.mpt file with other users so that they can access the new report also.

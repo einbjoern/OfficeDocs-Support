@@ -1,20 +1,20 @@
 ---
 title: This calendar isn't available error
 description: Describes an issue in which a user receives a This calendar isn't available error when trying to access the Calendar in Outlook on the web.
-author: simonxjx
-ms.author: v-six
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
 ms.custom: 
+  - sap:Outlook on the web / OWA
   - Exchange Online
   - CSSTroubleshoot
-ms.reviewer: alinastr
+ms.reviewer: alinastr, v-six
 appliesto: 
   - Exchange Online
 search.appverid: MET150
-ms.date: 3/31/2022
+ms.date: 01/24/2024
 ---
 # This calendar isn't available error when a user tries to access the Calendar in Outlook on the web
 
@@ -60,7 +60,7 @@ To resolve this problem, follow these steps.
 2. Exit Outlook (if it's running), and then do the following.
 
     > [!NOTE]
-    > If you don't have access to an Outlook for Windows client, contact Office 365 Support.
+    > If you don't have access to an Outlook for Windows client, contact Microsoft 365 Support.
 
     1. Select **Start**, type *outlook /resetnavpane* in the search box, and then press Enter.
 

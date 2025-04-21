@@ -6,8 +6,8 @@ ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
 ms.custom: 
+  - sap:Administration\InfoPath Forms Service
   - CSSTroubleshoot
 ms.reviewer: 
 appliesto: 
@@ -16,7 +16,7 @@ appliesto:
   - SharePoint Server 2016
   - SharePoint Server 2019
 search.appverid: MET150
-ms.date: 3/31/2022
+ms.date: 12/17/2023
 ---
 # Columns published from InfoPath fields are recreated when the same InfoPath form template is republished
 
@@ -78,4 +78,4 @@ There are a couple of methods to prevent this from happening:
 
 ## More information
 
-[Add, remove, or modify SharePoint library columns or site columns](https://office.microsoft.com/infopath-help/add-remove-or-modify-sharepoint-library-columns-or-site-columns-ha010103003.aspx)
+For more information, see [Add, remove, or modify SharePoint library columns or site columns](https://support.microsoft.com/office/93d836e0-382a-4f5c-b4f7-632e0e626313).

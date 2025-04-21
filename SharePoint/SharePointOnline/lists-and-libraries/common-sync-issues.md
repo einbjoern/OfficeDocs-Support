@@ -1,21 +1,21 @@
 ---
 title: Common issues syncing SharePoint lists offline
-ms.author: prbalusu
-author: v-matthamer
+ms.author: luche
+author: helenclu
 manager: dcscontentpm
-ms.date: 09/24/2021
+ms.date: 12/17/2023
 audience: Admin
 ms.topic: troubleshooting
-localization_priority: Normal
 search.appverid: 
   - SPO160
   - MET150
 appliesto: 
   - SharePoint Online
 ms.custom: 
+  - sap:Lists and Libraries\Lists Offline sync
   - CI 157491
   - CSSTroubleshoot
-ms.reviewer: sharepoint_triage
+ms.reviewer: prbalusu, sharepoint_triage
 description: Resolutions for some common issues with syncing SharePoint lists offline.
 ---
 

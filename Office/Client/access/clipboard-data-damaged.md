@@ -1,12 +1,11 @@
 ---
 title: Unable to copy and paste from Excel into Access
 description: Fixes an issue in which you can't perform a copy/paste operation from Excel into Access.
-author: MaryQiu1987
-ms.author: v-maqiu
+author: helenclu
+ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
 ms.custom: 
   - CI 114797
   - CSSTroubleshoot
@@ -19,11 +18,9 @@ appliesto:
   - Access 2010
   - Access 2007
 search.appverid: MET150
-ms.date: 3/31/2022
+ms.date: 06/06/2024
 ---
 # Access Error: Data on the Clipboard is damaged, so Microsoft Access can't paste it
-
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
 
 _Original KB number:_ &nbsp; 2221635
 

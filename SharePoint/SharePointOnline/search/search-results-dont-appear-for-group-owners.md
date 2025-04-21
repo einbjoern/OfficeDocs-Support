@@ -1,29 +1,29 @@
 ---
-title: Search results don't appear for group owners after creating a new Office 365 group
+title: Search results don't appear for group owners after creating a new Microsoft 365 group
 ms.author: luche
 author: helenclu
 manager: dcscontentpm
-ms.date: 10/18/2019
+ms.date: 12/17/2023
 audience: Admin
 ms.topic: troubleshooting
-localization_priority: Normal
 search.appverid: 
   - SPO160
   - MET150
 appliesto: 
   - SharePoint Online
 ms.custom: 
+  - sap:Search\Customize and Configure Results
   - CI 108412
   - SSTroubleshoot
 ms.reviewer: snarra, anundlie, knutb
-description: Describes how to get search results to appear for a group owner after creating a new Office 365 group.
+description: Describes how to get search results to appear for a group owner after creating a new Microsoft 365 group.
 ---
 
-# Search results don't appear for group owners after creating a new Office 365 group
+# Search results don't appear for group owners after creating a new Microsoft 365 group
 
 ## Symptoms
 
-When the owner of an Office 365 group conducts a SharePoint Online search by way of one of the following search engines: 
+When the owner of a Microsoft 365 group conducts a SharePoint Online search by way of one of the following search engines: 
 
 - Microsoft 365 search box
 - Enterprise Search Center
@@ -34,7 +34,7 @@ The owner fails to find content in the search results.
 
 ## Cause
 
-The issue is caused by the security trimming of the query (filtering based on user's access rights and memberships) which only relates to the  security group membership, not the group ownership.  Office 365 groups can have an owner that isn't a member.  
+The issue is caused by the security trimming of the query (filtering based on user's access rights and memberships) which only relates to the  security group membership, not the group ownership. Microsoft 365 groups can have an owner that isn't a member.  
 
 ## Resolution
 
@@ -52,7 +52,7 @@ For the owner to be a first-class member of the group, and be able to search for
 
 ## More information
 
-When an admin creates a new Office 365 group, the admin is not always added as a member of the group. The membership setting depends on the actual admin dialogue used to create the group. If the owner is not a member, then the owner is not able to search for content in the group from the Microsoft 365 search interfaces and APIs. It often happens when creating a new group from the admin portal in Microsoft 365.
+When an admin creates a new Microsoft 365 group, the admin is not always added as a member of the group. The membership setting depends on the actual admin dialogue used to create the group. If the owner is not a member, then the owner is not able to search for content in the group from the Microsoft 365 search interfaces and APIs. It often happens when creating a new group from the admin portal in Microsoft 365.
 
 In certain cases, it may be the expected behavior. If an admin creates a group on behalf of a user, it may not be expected that the admin should be a member of the group. The admin can still manage the group by adding and deleting members of the group.
 

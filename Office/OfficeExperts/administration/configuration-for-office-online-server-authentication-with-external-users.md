@@ -2,22 +2,22 @@
 title: Configuration for Microsoft Offices Online or Office Online Server authentication with external users
 description: Describes how to avoid the authentication prompt when you configure Office Online Server to work with external users.
 author: helenclu
-ms.author: jhaak
+ms.author: luche
+ms.reviewer: jhaak
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
 ms.topic: troubleshooting
-ms.custom: sap:office-experts, CSSTroubleshoot
+ms.custom: 
+  - sap:office-experts
+  - CSSTroubleshoot
 appliesto: 
   - Office Online Server
-ms.date: 3/31/2022
+ms.date: 06/06/2024
 ---
 
 # Configuration for Office Online Server authentication with external users
-
-This article was written by [Ben Wittgen](https://social.technet.microsoft.com/profile/Ben+W+-+MSFT), Escalation Engineer.
 
 When you configure Microsoft Offices Online or Office Online Server to work with external users, if external users don't want to be prompted for authentication, one major consideration is that the Microsoft Office Online calls need to be passed through the external firewall/reverse proxy.
 

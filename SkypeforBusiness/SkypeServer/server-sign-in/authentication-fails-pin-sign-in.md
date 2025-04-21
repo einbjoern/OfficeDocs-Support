@@ -3,28 +3,28 @@ title: Authentication fails during PIN sign-in
 description: Describes an issue that prevents the Lync Phone Edition PIN authentication process from working correctly. Occurs when a mismatched Trusted Root Certificate Authorities certificate chain is installed on the Lync Server front-end server role.
 author: simonxjx
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
 ms.topic: troubleshooting
 ms.author: v-six
 ms.reviewer: jefzhang
-ms.custom: CSSTroubleshoot
+ms.custom: 
+  - CSSTroubleshoot
 appliesto: 
   - Lync Phone Edition
-ms.date: 3/31/2022
+ms.date: 03/31/2022
 ---
 
 # Authentication fails during Lync Phone Edition PIN sign-in
 
 ## Symptoms
 
-A user tries to sign in to a Lync Phone Edition (PE) device by correctly entering his or her PIN. However, the user is repeatedly prompted to enter the correct PIN. Therefore, the user cannot sign in to the Lync PE device.
+A user tries to sign in to a Lync Phone Edition (PE) device by correctly entering the PIN. However, the user is repeatedly prompted to enter the correct PIN. Therefore, the user can't sign in to the Lync PE device.
 
-Additionally the Lync Server event log on the Lync Server Front End (FE) server that is the registrar for the Lync PE device displays the following error events:
+Additionally, the Lync Server event log on the Lync Server Front End (FE) server that's the registrar for the Lync PE device displays the following error events:
 
-```adoc
+```output
 Log Name: Lync Server
 Source: LS UserPin Service
 Date: mm/dd/yyyy hh:mm:ss AM|PM
@@ -43,7 +43,7 @@ Resolution:
 Please ensure that the server can be connected on the target port using telnet and then re-try.
 ```
 
-```adoc
+```output
 Log Name: Lync Server
 Source: LS UserPin Service
 Date: mm/dd/yyyy hh:mm:ss AM|PM

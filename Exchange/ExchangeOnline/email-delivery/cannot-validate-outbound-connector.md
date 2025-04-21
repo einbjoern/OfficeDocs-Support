@@ -1,21 +1,21 @@
 ---
 title: Can't validate an outbound connector
-description: Discusses an error message that you receive when you try to validate a connector in the Exchange admin center in Office 365.
-author: simonxjx
-ms.author: v-six
+description: Discusses an error message that you receive when you try to validate a connector in the Exchange admin center in Microsoft 365.
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
 ms.custom: 
+  - sap:Mail Flow
   - Exchange Online
   - CSSTroubleshoot
-ms.reviewer: jeknight
+ms.reviewer: jeknight, v-six
 appliesto: 
   - Exchange Online
   - Exchange Online Protection
 search.appverid: MET150
-ms.date: 3/31/2022
+ms.date: 01/24/2024
 ---
 # The domain of the recipient is not configured as part of connector when you validate a connector
 
@@ -23,7 +23,7 @@ _Original KB number:_ &nbsp; 3179588
 
 ## Problem
 
-When you try to validate an outbound connector in the Exchange admin center in Office 365, the test email message isn't delivered, and you receive the following error message:
+When you try to validate an outbound connector in the Exchange admin center in Microsoft 365, the test email message isn't delivered, and you receive the following error message:
 
 > The domain of the recipient is not configured as part of connector.
 

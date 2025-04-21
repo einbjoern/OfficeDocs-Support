@@ -3,25 +3,25 @@ title: A connector does not move when you move a shape in Microsoft Word
 description: Describes a behavior in Word 2010 where a connector does not move when you move a shape. To resolve this behavior, you must insert the shapes and connector in a new drawing canvas.
 author: helenclu
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
 ms.topic: troubleshooting
-ms.custom: CSSTroubleshoot
+ms.custom: 
+  - sap:Office Suite (Access, Excel, OneNote, PowerPoint, Publisher, Word, Visio)\Performance, Usability & Features
+  - Editing\Insert
+  - CSSTroubleshoot
 ms.author: luche
 appliesto: 
-  - Word for Office 365
+  - Word for Microsoft 365
   - Word 2019
   - Word 2016
   - Word 2013
   - Word 2010
-ms.date: 3/31/2022
+ms.date: 06/06/2024
 ---
 
 # A connector does not move when you move a shape in Microsoft Word
-
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
 
 ## Symptoms
 

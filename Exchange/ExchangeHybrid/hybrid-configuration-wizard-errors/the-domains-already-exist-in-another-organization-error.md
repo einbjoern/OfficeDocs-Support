@@ -1,22 +1,22 @@
 ---
 title: Domains can only exist in one organization relationship
 description: Describes an issue in which you receive a Domains can only exist in one organization relationship error message when you run the Hybrid Configuration wizard.
-author: simonxjx
-ms.author: v-six
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
 ms.custom: 
+  - sap:Hybrid
   - Exchange Hybrid
   - CSSTroubleshoot
-ms.reviewer: scotro
+ms.reviewer: scotro, v-six
 appliesto: 
   - Exchange Online
   - Exchange Server 2013 Enterprise
   - Exchange Server 2013 Standard Edition
 search.appverid: MET150
-ms.date: 3/31/2022
+ms.date: 01/24/2024
 ---
 # (The domains already exist in another organization relationship) error when running Hybrid Configuration wizard
 
@@ -24,7 +24,7 @@ _Original KB number:_ &nbsp; 3067526
 
 ## Symptoms
 
-You want to set up a hybrid deployment between your on-premises Microsoft Exchange Server organization and Exchange Online in Microsoft Office 365. However, when you run the Hybrid Configuration wizard, the wizard doesn't complete successfully, and you receive a **The domains already exist in another organization relationship** error message. The full text of this message resembles the following:
+You want to set up a hybrid deployment between your on-premises Microsoft Exchange Server organization and Exchange Online in Microsoft 365. However, when you run the Hybrid Configuration wizard, the wizard doesn't complete successfully, and you receive a **The domains already exist in another organization relationship** error message. The full text of this message resembles the following:
 
 > ERROR : Subtask Configure execution failed: Configure Organization Relationship
 Execution of the New-OrganizationRelationship cmdlet has thrown an exception. This may indicate invalid parameters in your hybrid configuration settings.

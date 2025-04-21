@@ -3,16 +3,16 @@ title: Troubleshoot OneDrive for Business sites that stop at provisioning stage
 ms.author: luche
 author: helenclu
 manager: dcscontentpm
-ms.date: 12/18/2019
+ms.date: 12/17/2023
 audience: Admin
 ms.topic: troubleshooting
-localization_priority: Normal
 search.appverid: 
   - SPO160
   - MET150
 appliesto: 
   - OneDrive for Business
 ms.custom: 
+  - sap:SharePoint Admin Center\Other
   - CI 112027
   - CSSTroubleshoot
 ms.reviewer: prbalusu
@@ -70,7 +70,7 @@ For more information about this, see [Disable OneDrive creation for some users](
 
 ### The user account does not have a user profile in SharePoint Online
 
-A profile **must** exist in the SharePoint Online profile database to provision a OneDrive site. A profile is created when a user account is created and synched to the Office 365 portal, or during ODB provisioning if one does not exist. 
+A profile **must** exist in the SharePoint Online profile database to provision a OneDrive site. A profile is created when a user account is created and synched to the Microsoft 365 portal, or during ODB provisioning if one does not exist. 
 
 It's a rare scenario that a profile doesn't exist. For any reason, a profile is taking longer than expected to create, wait at least two hours and then validate again. If the profile still doesn't exist after two hours, contact [Microsoft Support](https://support.microsoft.com/topic/contact-microsoft-office-support-fd6bb40e-75b7-6f43-d6f9-c13d10850e77).
 

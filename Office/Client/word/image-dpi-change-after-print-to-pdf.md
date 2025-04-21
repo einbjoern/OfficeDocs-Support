@@ -6,22 +6,22 @@ ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
-ms.custom: CSSTroubleshoot
+ms.custom: 
+  - sap:Office Suite (Access, Excel, OneNote, PowerPoint, Publisher, Word, Visio)\Performance, Usability & Features
+  - Printing
+  - CSSTroubleshoot
 ms.reviewer: Laura Holzwarth (STRUCK), Fish Ge
 search.appverid: 
   - MET150
 appliesto: 
   - Microsoft Word 2010
   - Word 2013
-ms.date: 3/31/2022
+ms.date: 06/06/2024
 ---
 
 # Image DPI is changed after you print to PDF from Word 2013 or Word 2010
 
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
-
-##  Symptoms
+## Symptoms
 
 Assume that you convert the documents to PDF files by using PDF printer (for example, Adobe Acrobat or PDF Creator)in Microsoft Word 2013 or Word 2010. In this situation, you notice that the dots per inch (DPI) of some images may change from the original DPI in the document.
 

@@ -1,14 +1,14 @@
 ---
 title: Excel opens a blank screen when you double-click a file icon or file name
 description: Offers resolutions to an issue where you see a blank screen when you try to open an Excel workbook by double-clicking its icon or file name.
-ms.date: 6/16/2020
+ms.date: 06/06/2024
 author: helenclu
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
 ms.custom: 
+  - Open
   - CSSTroubleshoot
   - CI 147067
 ms.topic: troubleshooting
@@ -24,8 +24,6 @@ appliesto:
 ---
 
 # Troubleshoot opening a blank screen when you double-click a file icon or file name in Excel
-
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
 
 ## Symptoms
 
@@ -143,7 +141,7 @@ If you aren't sure whether you are running UE-V, examine the program list in the
 
 Try to repair your Office programs. To do this, follow the steps for your installation type and operating system.
 
-### For an Microsoft 365 Apps, Office LTSC 2021, or Office 2019 Click-to-Run installation
+### For a Microsoft 365 Apps, Office LTSC 2021, or Office 2019 Click-to-Run installation
 
 #### Windows 10
 
@@ -159,14 +157,14 @@ Try to repair your Office programs. To do this, follow the steps for your instal
 1. On the Start screen, type **Control Panel**.
 1. Select or tap **Control Panel**.
 1. Under **Programs**, select or tap **Uninstall a program**.
-1. Select or tap **Microsoft Office 365**, then select or tap **Change**.
+1. Select or tap **Microsoft 365**, then select or tap **Change**.
 1. Select or tap **Online Repair**, then select or tap **Repair**. You may have to restart your computer after the repair process is finished.
 
 #### Windows 7
 
 1. Select **Start**, then select **Control Panel**.
 1. double-click **Programs and Features**.
-1. Select **Microsoft Office 365**, then select **Change**.
+1. Select **Microsoft 365**, then select **Change**.
 1. Select **Online Repair**, then select **Repair**.
 
    :::image type="content" source="media/error-when-send-commands-in-excel/online-repair-option.png" alt-text="Select the Online Repair option to repair office.":::

@@ -1,12 +1,11 @@
 ---
 title: Data collected by Access Baseline diagnostic
 description: Describes details about the data that is collected by the Microsoft Office Access Baseline diagnostic.
-author: MaryQiu1987
-ms.author: v-maqiu
+author: helenclu
+ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
 ms.custom: 
   - CI 114797
   - CSSTroubleshoot
@@ -16,11 +15,9 @@ appliesto:
   - Microsoft Office Access 2007
   - Microsoft Office Access 2003
 search.appverid: MET150
-ms.date: 3/31/2022
+ms.date: 03/31/2022
 ---
 # [SDP 3][b4abb87b-898d-4e51-b723-4151ec94c452] Microsoft Access Support Diagnostic
-
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
 
 _Original KB number:_ &nbsp; 2678469
 

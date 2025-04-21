@@ -3,26 +3,26 @@ title: Use Office 2013 on a computer that's running another version of Office
 description: Describes how to run multiple versions of Office on a computer that has Office 2013 suites and programs installed.
 author: helenclu
 manager: dcscontentpm
-localization_priority: Normal
 audience: ITPro
 ms.topic: troubleshooting
 ms.author: luche
-ms.custom: CSSTroubleshoot
+ms.custom: 
+  - sap:Office Suite (Access, Excel, OneNote, PowerPoint, Publisher, Word, Visio)\Installation, Update, Deployment,  Activation
+  - DownloadInstall\SxS\SxSOrPerpetual
+  - CSSTroubleshoot
 ms.reviewer: doakm, offspms, tomol, Jenl
 search.appverid: 
   - MET150
 appliesto: 
   - Office 2013
-ms.date: 3/31/2022
+ms.date: 06/06/2024
 ---
 
 # How to use Office 2013 suites and programs (MSI deployment) on a computer running another version of Office
 
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
-
 For a Microsoft Office 2010 version of this article, see [2121447](https://support.microsoft.com/help/2121447).
 
-For a Microsoft Office 365 client version of this article, see [Install and use different versions of Office on the same PC](https://support.office.com/article/Install-and-use-different-versions-of-Office-on-the-same-PC-6ebb44ce-18a3-43f9-a187-b78c513788bf). 
+For a Microsoft 365 client version of this article, see [Install and use different versions of Office on the same PC](https://support.office.com/article/Install-and-use-different-versions-of-Office-on-the-same-PC-6ebb44ce-18a3-43f9-a187-b78c513788bf). 
 
 ## Introduction
 

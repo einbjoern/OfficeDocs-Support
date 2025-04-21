@@ -1,13 +1,13 @@
 ---
 title: Collect Android Teams device logs
 description: Describes how to use Teams admin center to collect Android device logs that run Teams.
-author: MaryQiu1987
-ms.author: v-maqiu
+author: helenclu
+ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: article
-localization_priority: Normal
 ms.custom: 
+  - sap:Teams Device Management (TAC)
   - CI 160238
   - CSSTroubleshoot
 ms.reviewer: miaitelh
@@ -15,7 +15,7 @@ appliesto:
   - Microsoft Teams
 search.appverid: 
   - MET150
-ms.date: 3/31/2022
+ms.date: 10/30/2023
 ---
 # Collect device logs for Android Teams devices
 
@@ -30,8 +30,6 @@ If you experience issues when you try to use Android devices that run Microsoft 
 
    :::image type="content" source="media/collect-device-logs/history.png" alt-text="Screenshot of the History menu. The Download link is highlighted.":::
 
-4. Extract the downloaded folder and look for a file name that begins with "Skylib". This file is the media log that contains diagnostic data.
-
-   :::image type="content" source="media/collect-device-logs/skylib-file.png" alt-text="Screenshot of the extracted files. The file that has a name that begins as Skylib is highlighted.":::
+4. Compress the log files and share them when you create a support request with Microsoft Support. If you already have an open support request, upload the files to the location provided by the support engineer.
 
 Still need help? Go to [Microsoft Community](https://answers.microsoft.com/).

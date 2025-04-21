@@ -6,9 +6,9 @@ ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
 ms.reviewer: hgkim，gaberry, akeeler
 ms.custom: 
+  - Security\Trust
   - CI 114484
   - CSSTroubleshoot
 search.appverid: MET150
@@ -16,12 +16,10 @@ appliesto:
   - Excel 2016
   - Excel 2013Excel 2010
   - Microsoft Office Excel 2007
-ms.date: 3/31/2022
+ms.date: 06/06/2024
 ---
 
 # "This document contains invalid signatures" error when opening Excel workbooks that were digitally signed in an earlier version
-
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
 
 ## Symptoms
 

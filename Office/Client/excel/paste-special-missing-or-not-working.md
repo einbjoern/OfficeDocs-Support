@@ -6,24 +6,23 @@ ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
 ms.custom: 
+  - Editing\CopyOrPaste
   - CSSTroubleshoot
   - CI 162524
+  - CI 171649
 search.appverid: 
   - MET150
 appliesto: 
   - office
-ms.date: 3/31/2022
+ms.date: 06/06/2024
 ---
 
 # Paste Special option is missing or not working in Microsoft Office
 
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
-
 The **Paste Special** option can make the task of pasting text go more smoothly by letting you choose which formatting you want to keep (source or destination) or by stripping all the formatting and just pasting the text. If you are having issues with the **Paste Special** option, continue on to the resolutions below.
 
-##  Resolution
+## Resolution
 
 To see if the **Paste Special** option is enabled: 
  
@@ -51,4 +50,4 @@ Ensure that all instances of the web browsers that you use are closed and try to
 
     :::image type="content" source="media/paste-special-missing-or-not-working/paste-special-settings.png" alt-text="Check the Paste Special settings." border="false":::
 
-You can also get help from the [Microsoft Community](https://answers.microsoft.com/) online community, search for more information on [Microsoft Support](https://support.microsoft.com/search/) or [Windows Help and How To](https://office.microsoft.com/support/), or learn more about [Assisted Support](https://support.microsoft.com/contactus/) options.
+You can also get help from the [Microsoft Community](https://answers.microsoft.com/) online community, search for more information on [Microsoft Support](https://support.microsoft.com) or [Windows Help and How To](https://office.microsoft.com/support/), or learn more about [Assisted Support](https://support.microsoft.com/contactus/) options.

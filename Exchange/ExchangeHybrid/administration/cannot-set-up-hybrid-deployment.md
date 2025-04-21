@@ -4,8 +4,9 @@ description: Describes an issue in which you receive an error when you run Set-F
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
-ms.custom: CSSTroubleshoot
+ms.custom: 
+  - sap:Hybrid
+  - CSSTroubleshoot
 appliesto: 
 - Exchange Online 
 - Exchange Server 2013 Enterprise 
@@ -13,16 +14,16 @@ appliesto:
 - Exchange Server 2010 Enterprise 
 - Exchange Server 2010 Standard
 search.appverid: MET150
-ms.reviewer: scotro
-author: simonxjx
-ms.author: v-six
-ms.date: 3/31/2022
+ms.reviewer: scotro, v-six
+author: cloud-writer
+ms.author: meerak
+ms.date: 01/24/2024
 ---
 
 # "InternalError InternalError: Internal error" when you run Set-FederatedOrganizationIdentifier to set up a hybrid deployment
 
 > [!NOTE]
-> The Hybrid Configuration wizard that's included in the Exchange Management Console in Microsoft Exchange Server 2010 is no longer supported. Therefore, you should no longer use the old Hybrid Configuration wizard. Instead, use the Office 365 Hybrid Configuration wizard that's available at [Microsoft.Online.CSE.Hybrid.Client](https://aka.ms/hybridwizard). For more information, see [Office 365 Hybrid Configuration wizard for Exchange 2010](https://techcommunity.microsoft.com/t5/exchange-team-blog/office-365-hybrid-configuration-wizard-for-exchange-2010/ba-p/604541).
+> The Hybrid Configuration wizard that's included in the Exchange Management Console in Microsoft Exchange Server 2010 is no longer supported. Therefore, you should no longer use the old Hybrid Configuration wizard. Instead, use the Microsoft 365 Hybrid Configuration wizard that's available at [Microsoft.Online.CSE.Hybrid.Client](https://aka.ms/hybridwizard). For more information, see [Microsoft 365 Hybrid Configuration wizard for Exchange 2010](https://techcommunity.microsoft.com/t5/exchange-team-blog/office-365-hybrid-configuration-wizard-for-exchange-2010/ba-p/604541).
 
 ## Symptoms
 
@@ -36,7 +37,7 @@ at Microsoft.Exchange.Management.Hybrid.RemotePowershellSession.RunCommand(Strin
 
 ## Cause
 
-This problem occurs if the domain name for your organization was previously in use and you try to reconfigure the domain. A domain name may be blocked in Windows Live for the Azure Active Directory (Azure AD) authentication system if the domain name was previously used.
+This problem occurs if the domain name for your organization was previously in use and you try to reconfigure the domain. A domain name may be blocked in Windows Live for the Microsoft Entra authentication system if the domain name was previously used.
 
 ## Resolution
 

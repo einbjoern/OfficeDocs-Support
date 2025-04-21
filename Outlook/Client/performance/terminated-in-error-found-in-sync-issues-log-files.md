@@ -1,13 +1,13 @@
 ---
 title: Terminated in error found in Sync Issues log files
 description: Documenting an issue for OffCAT rule where errors appear in the Sync Issues folder.
-author: helenclu
-ms.author: luche
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
 ms.custom: 
+  - sap:Exchange Mailbox Accounts\Cached mode synchronization
   - Outlook for Windows
   - CSSTroubleshoot
 ms.reviewer: tmoore, gregmans
@@ -16,9 +16,9 @@ appliesto:
   - Outlook 2016
   - Outlook 2013
   - Microsoft Office Outlook 2007
-  - Outlook for Office 365
+  - Outlook for Microsoft 365
 search.appverid: MET150
-ms.date: 3/31/2022
+ms.date: 01/30/2024
 ---
 # Terminated in error found in Outlook Sync Issues log files
 
@@ -44,7 +44,7 @@ The error may be resolved in Outlook 2016, Outlook 2013 or Outlook 2007 by delet
 
 Delete and recreate the OST file
 
-- Outlook 2019, 2016, 2013, or Outlook for Office 365
+- Outlook 2019, 2016, 2013, or Outlook for Microsoft 365
   1. On the **File** tab, select **Account Settings**, and then select **Account Settings**.
   2. In the **Account Settings** dialog, select **Data Files**.
   3. Locate the OST file for your email address, and note the path and filename of the OST file.
@@ -66,7 +66,7 @@ Delete and recreate the OST file
 
 Create a new Outlook profile
 
-Outlook 2019, Outlook 2016, Outlook 2013, Outlook 2007, or Outlook for Office 365
+Outlook 2019, Outlook 2016, Outlook 2013, Outlook 2007, or Outlook for Microsoft 365
 
 1. Launch Control Panel.
 

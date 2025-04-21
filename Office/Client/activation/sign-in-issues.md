@@ -1,13 +1,15 @@
 ---
 title: Sign in issues when activating Microsoft 365 Apps
 description: This article will help you troubleshoot network connection issues when activating Microsoft 365 Apps.
-author: vikkarti
-ms.author: v-matthamer
+author: helenclu
+ms.reviewer: vikkarti
+ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
 ms.custom: 
+  - sap:Office Suite (Access, Excel, OneNote, PowerPoint, Publisher, Word, Visio)\Installation, Update, Deployment,  Activation
+  - Activation\SignIn\Password Prompts
   - CSSTroubleshoot
   - CI 157601
   - CI 159070
@@ -16,7 +18,7 @@ search.appverid:
   - MET150
 appliesto: 
   - Microsoft 365
-ms.date: 3/31/2022
+ms.date: 02/25/2025
 ---
 
 # Sign in issues when activating Microsoft 365 Apps
@@ -60,9 +62,9 @@ Microsoft 365 Apps fails to activate when opened from published apps on a Citrix
 </details>
 
 <details>
-<summary><b>Sign out of Office and sign back in</b></summary>
+<summary><b>Sign out of Microsoft 365 and sign back in</b></summary>
 
-1.	Open an Office app, such as Word.
+1.	Open a Microsoft 365 app, such as Word.
 1.	Select your name and profile picture or icon at the top.
 1.	Select **Sign out**.
 1.	Select **Sign in**.
@@ -74,7 +76,7 @@ Microsoft 365 Apps fails to activate when opened from published apps on a Citrix
 <details>
 <summary><b>Make sure Azure Active Directory Authentication Library (ADAL) and Web Account Manager (WAM) are enabled</b></summary>
 
-For more information, see [Disabling ADAL or WAM not recommended for fixing Office sign-in or activation issues](/office365/troubleshoot/administration/disabling-adal-wam-not-recommended).
+For more information, see [Disabling ADAL or WAM not recommended for fixing Microsoft 365 sign-in or activation issues](/microsoft-365/troubleshoot/administration/disabling-adal-wam-not-recommended).
 <br/><br/>
 </details>
 
@@ -89,7 +91,7 @@ Are you behind a proxy server? If you're not sure, ask your administrator. If so
   
 You need to allow the URLs and IP addresses in [this list](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide&preserve-view=true#microsoft-365-common-and-office-online).
   
-You can also allow Microsoft 365 to bypass the proxy server by creating a PAC file. For more information about creating a PAC file, see [Managing Office 365 endpoints](/microsoft-365/enterprise/managing-office-365-endpoints).
+You can also allow Microsoft 365 to bypass the proxy server by creating a PAC file. For more information about creating a PAC file, see [Managing Microsoft 365 endpoints](/microsoft-365/enterprise/managing-office-365-endpoints).
 <br/><br/>
 </details>
 
@@ -121,7 +123,7 @@ Are you behind a firewall? If you're not sure, ask your administrator. If you're
   
 Each firewall will have a different method to enable access to these URIs. Check your software's documentation for instructions or ask your administrator to do this for you.
   
-For more information about Microsoft 365 Apps for enterprise URLs and IP addresses, see the following Microsoft article: [Office 365 URLs and IP address ranges](https://technet.microsoft.com/library/hh373144.aspx).
+For more information about Microsoft 365 Apps for enterprise URLs and IP addresses, see the following Microsoft article: [Microsoft 365 URLs and IP address ranges](https://technet.microsoft.com/library/hh373144.aspx).
 <br/><br/>
 </details>
 
@@ -153,9 +155,9 @@ If the process isn’t blocked, but you still can’t activate Microsoft 365, de
 `%LOCALAPPDATA%\Packages\Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy\AC\TokenBroker\Accounts`
 1.	Select all files and delete them.
 1.	Restart the device.
-1.	Download and run [the SaRA package for sign in issues](https://aka.ms/SaRA-OfficeSignInScenario).
+1.	Run the [Microsoft 365 sign-in troubleshooter](https://aka.ms/SaRA-OfficeSignIn-sarahome).
 
-For manual troubleshooting for step 7, or for more information, see [Fix authentication issues in Office applications when you try to connect to an Office 365 service](/office365/troubleshoot/authentication/automatic-authentication-fails).
+For manual troubleshooting for step 7, or for more information, see [Fix authentication issues in Microsoft 365 applications when you try to connect to a Microsoft 365 service](/microsoft-365/troubleshoot/authentication/automatic-authentication-fails).
 <br/><br/>
 </details>
 
@@ -170,7 +172,7 @@ If WIP is configured, you might encounter error code 0x80070164 when trying to a
 <summary><b>Make sure Virtual Desktop Infrastructure (VDI) is configured correctly</b></summary>
 
 If you are using VDI, make sure your Microsoft 365 credentials are not roamed. 
-If you are using non-persistent VDI, set up Seamless Single Sign On (SSO). For more information, see [Azure Active Directory Seamless Single Sign-On](/azure/active-directory/hybrid/how-to-connect-sso).
+If you are using non-persistent VDI, set up Seamless Single Sign On (SSO). For more information, see [Microsoft Entra seamless single sign-on](/azure/active-directory/hybrid/how-to-connect-sso).
 <br/><br/>
 </details>
 
@@ -190,9 +192,9 @@ If you are using non-persistent VDI, set up Seamless Single Sign On (SSO). For m
 <details>
 <summary><b>Enable Office Protection Policy</b></summary>
 
-1.	Open an Office app, such as Word.
+1.	Open a Microsoft 365 app, such as Word.
 1.	Select your name and profile picture at the top, then select **Sign out**.
-1.	Close the Office app.
+1.	Close the app.
 1.	From Start, select **Settings** (the gear icon) > **Accounts** > **Access work or school**.
 1.	Select the account you use to sign in to office.com is listed there, and then select **Disconnect**.
 1.	From Start, type *regedit*, and then select **Registry Editor** from the search results.

@@ -6,18 +6,16 @@ ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
-ms.custom: CSSTroubleshoot
+ms.custom: 
+  - CSSTroubleshoot
 search.appverid: 
   - MET150
 appliesto: 
-  - office 365
-ms.date: 3/31/2022
+  - Microsoft 365
+ms.date: 03/31/2022
 ---
 
 # The operation has timed out when connecting to OData by using SSIS in Project Online
-
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
 
 ## Symptoms
 

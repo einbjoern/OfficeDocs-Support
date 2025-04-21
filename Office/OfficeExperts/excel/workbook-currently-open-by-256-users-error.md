@@ -3,11 +3,14 @@ title: Error (The workbook is currently open by 256 users) when opening an Excel
 ms.author: luche
 author: helenclu
 manager: dcscontentpm
-ms.date: 9/11/2019
+ms.date: 06/06/2024
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
-ms.custom: sap:office-experts, CSSTroubleshoot, CI 106765
+ms.custom: 
+  - Open\Sharing
+  - sap:office-experts
+  - CSSTroubleshoot
+  - CI 106765
 search.appverid: 
   - SPO160
   - MET150
@@ -15,7 +18,7 @@ ms.assetid:
 appliesto: 
   - SharePoint Online
 ms.reviewer: denniwil
-description: Describes how to resolve a shared workbook error when opening an Office 365 Excel file.
+description: Describes how to resolve a shared workbook error when opening a Microsoft 365 Excel file.
 ---
 
 # "The workbook is currently open by 256 users" error when opening an Excel workbook from SharePoint or OneDrive
@@ -27,7 +30,7 @@ You receive the following error when opening an Excel workbook that is stored on
 The workbook will be opened read-only. You can try again later when one or more users have closed the workbook."
 
 ## Cause
-"Shared Workbooks" is a legacy sharing option that allows you to collaborate on a workbook with multiple authors. This feature has been replaced in Office 365 by the co-authoring feature. 
+"Shared Workbooks" is a legacy sharing option that allows you to collaborate on a workbook with multiple authors. This feature has been replaced in Microsoft 365 by the co-authoring feature. 
 
 ## Resolution
 To resolve this issue, select the **Review** tab of the ribbon, and within the **Protect** group select **Unshare Workbook**. 

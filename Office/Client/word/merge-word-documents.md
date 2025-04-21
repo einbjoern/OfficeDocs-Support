@@ -3,26 +3,26 @@ title: How to merge Word documents
 description: Describes how to merge multiple Word documents into one.
 author: helenclu
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
 ms.topic: troubleshooting
-ms.custom: CSSTroubleshoot
+ms.custom: 
+  - sap:Office Suite (Access, Excel, OneNote, PowerPoint, Publisher, Word, Visio)\Performance, Usability & Features
+  - Editing\Combine
+  - CSSTroubleshoot
 ms.author: luche
 appliesto: 
   - Microsoft Word
-ms.date: 3/31/2022
+ms.date: 06/06/2024
 ---
 
 # How to merge Word documents
 
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
-
 If you have to combine separate Microsoft Word documents, you can copy and paste them together if they're short, or merge them if they're long.
 
 > [!NOTE]
-> The following method applies to both Word 2010 and Word 2007. The format might not stay the same when you merge documents.
+> The format might not stay the same when you merge documents.
 
 1. Select the **Insert** tab.
 

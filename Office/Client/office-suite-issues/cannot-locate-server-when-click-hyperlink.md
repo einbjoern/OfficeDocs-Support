@@ -2,29 +2,31 @@
 title: Cannot locate the Internet or proxy server when selecting hyperlink in Office
 description: Describes issues when you select hyperlinks in Office. Provides solutions.
 author: helenclu
-ms.date: 7/17/2020
+ms.date: 06/06/2024
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
-ms.custom: CSSTroubleshoot
+ms.custom: 
+  - sap:Office Suite (Access, Excel, OneNote, PowerPoint, Publisher, Word, Visio)\Performance, Usability & Features
+  - Open\Links
+  - CSSTroubleshoot
 ms.topic: troubleshooting
 ms.author: luche
 appliesto: 
-  - Word for Office 365
+  - Word for Microsoft 365
   - Word 2019
   - Word 2016
   - Word 2013
-  - Outlook for Office 365
+  - Outlook for Microsoft 365
   - Outlook 2019
   - Outlook 2016
   - Outlook 2013
-  - PowerPoint for Office 365
+  - PowerPoint for Microsoft 365
   - PowerPoint 2019
   - PowerPoint 2016
   - PowerPoint 2013
-  - Excel for Office 365
+  - Excel for Microsoft 365
   - Excel 2019
   - Excel 2016
   - Excel 2013
@@ -38,8 +40,6 @@ appliesto:
 ---
 
 # Error message when selecting hyperlink in Office: "Cannot locate the Internet server or proxy server"
-
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
 
 ## Symptoms
 

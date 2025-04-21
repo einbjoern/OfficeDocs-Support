@@ -1,12 +1,11 @@
 ---
 title: Unable to add a new record programmatically
 description: Fixes an issue in which you receive an error message if you try to add a new record to a table by using the NotInList event of the combo box on a form.
-author: MaryQiu1987
-ms.author: v-maqiu
+author: helenclu
+ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
 ms.custom: 
   - CI 114797
   - CSSTroubleshoot
@@ -15,11 +14,9 @@ appliesto:
   - Microsoft Office Access 2007
   - Microsoft Office Access 2003
 search.appverid: MET150
-ms.date: 3/31/2022
+ms.date: 03/31/2022
 ---
 # "The text you entered isn't an item in the list" error when you add a new record to a table
-
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
 
 _Original KB number:_ &nbsp; 824176
 

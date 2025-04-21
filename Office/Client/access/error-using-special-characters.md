@@ -1,18 +1,17 @@
 ---
 title: Errors using special characters in Access databases
 description: Lists the special characters to avoid using when you work with the database object names or the field names in all versions of Access.
-author: MaryQiu1987
-ms.author: v-maqiu
+author: helenclu
+ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
 ms.custom: 
   - CI 114797
   - CSSTroubleshoot
 ms.reviewer: 
 appliesto: 
-  - Access for Office 365
+  - Access for Microsoft 365
   - Access 2019
   - Access 2016
   - Access 2013
@@ -20,14 +19,12 @@ appliesto:
   - Microsoft Office Access 2007
   - Microsoft Office Access 2003
 search.appverid: MET150
-ms.date: 3/31/2022
+ms.date: 06/06/2024
 ---
 
 # Error message when you use special characters in Access databases
 
 This article lists the special characters to avoid using when you work with the database object names or the field names in all versions of Access.
-
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
 
 _Original KB number:_ &nbsp; 826763
 

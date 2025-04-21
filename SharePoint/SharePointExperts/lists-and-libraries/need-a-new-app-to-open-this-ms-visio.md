@@ -2,18 +2,20 @@
 title: You'll need a new app to open this ms-visio when you open Visio files in SharePoint
 description: Describes an issue that occurs when you try to open a Visio file in SharePoint Server or SharePoint Online.
 author: helenclu
-ms.author: warrenr
+ms.author: luche
+ms.reviewer: warrenr
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
 ms.topic: troubleshooting
-ms.custom: sap:spsexperts, CSSTroubleshoot
+ms.custom: 
+  - sap:Administration\Service Applications (except Search)
+  - CSSTroubleshoot
 appliesto: 
   - Microsoft SharePoint Server
   - SharePoint Online
-ms.date: 3/31/2022
+ms.date: 12/17/2023
 ---
 
 # "You'll need a new app to open this ms-visio" when you open Visio files

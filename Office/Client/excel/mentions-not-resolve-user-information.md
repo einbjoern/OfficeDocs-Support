@@ -1,32 +1,32 @@
 ---
 title: User isn't found when using @mentions
 description: Fixes an issue in which user information doesn't resolve when you @mention a user.
-author: MaryQiu1987
-ms.author: v-maqiu
+author: helenclu
+ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
 ms.custom: 
+  - Sharing\Collab
   - CI 149605
   - CSSTroubleshoot
 ms.reviewer: remcgurk
 appliesto: 
-  - Word for Office 365
-  - Word for Mac for Office 365
+  - Word for Microsoft 365
+  - Word for Microsoft 365 for Mac 
   - Word for the web
-  - PowerPoint for Mac for Office 365
-  - PowerPoint for Office 365
+  - PowerPoint for Microsoft 365 for Mac
+  - PowerPoint for Microsoft 365
   - PowerPoint for the web
-  - Excel for Mac for Office 365
-  - Excel for Office 365
+  - Excel for Microsoft 365 for Mac 
+  - Excel for Microsoft 365
   - Excel for the web
-  - Outlook for Office 365
-  - Outlook for Mac for Office 365
+  - Outlook for Microsoft 365
+  - Outlook for Microsoft 365 for Mac
   - Outlook on the web
 search.appverid: 
   - MET150
-ms.date: 3/31/2022
+ms.date: 06/06/2024
 ---
 # User information in @mentions doesn't resolve
 

@@ -1,12 +1,11 @@
 ---
 title: Unable to open an Access database
 description: Fixes a problem that occurs when you use the DAO library to convert a database that you created in Access 97 or an earlier version by using the CompactDatabase method.
-author: MaryQiu1987
-ms.author: v-maqiu
+author: helenclu
+ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
 ms.custom: 
   - CI 114797
   - CSSTroubleshoot
@@ -19,13 +18,11 @@ appliesto:
   - Microsoft Office Access 2007
   - Microsoft Office Access 2003
 search.appverid: MET150
-ms.date: 3/31/2022
+ms.date: 06/06/2024
 ---
 # "The database is in an unexpected state" error when you open a database in Access
 
 This article fixes an issue that occurs when you use the DAO library to convert a database.
-
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
 
 _Original KB number:_ &nbsp; 888634
 

@@ -1,18 +1,21 @@
 ---
 title: How to refresh data to a SQL Azure Database in Excel Online
 description: Describe detailed steps to refresh data to a SQL Azure Database in Excel Online
-author: MaryQiu1987
+author: helenclu
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
-ms.custom: sap:office-experts, CSSTroubleshoot
+ms.custom: 
+  - Editing\Data\ImportExport
+  - sap:office-experts
+  - CSSTroubleshoot
 ms.topic: troubleshooting
-ms.author: thempel
+ms.author: luche
+ms.reviewer: thempel
 appliesto: 
   - Excel Online
-ms.date: 3/31/2022
+ms.date: 06/06/2024
 ---
 
 # How to refresh data to a SQL Azure Database in Excel Online

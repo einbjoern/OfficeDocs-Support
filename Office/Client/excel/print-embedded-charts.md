@@ -3,26 +3,23 @@ title: Programmatically print all embedded charts on a worksheet
 description: Describes how to print all embedded charts on a worksheet programmatically.
 author: helenclu
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
 ms.topic: troubleshooting
-ms.custom: CSSTroubleshoot
+ms.custom: 
+  - Extensibility\Macros
+  - CSSTroubleshoot
 ms.author: luche
 appliesto: 
   - Excel 2007
   - Excel 2003
   - Excel 2002
   - Excel 2000
-ms.date: 3/31/2022
+ms.date: 06/06/2024
 ---
 
 # Print all embedded charts programmatically on a worksheet in Excel
-
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
-
-## Summary
 
 In Microsoft Excel, you can create a Microsoft Visual Basic for Applications macro that prints all embedded charts in an Excel worksheet. Each chart is printed on a separate page.
 
@@ -56,4 +53,4 @@ Microsoft provides programming examples for illustration only, without warranty 
 5. On the File menu, click **Close and Return to Microsoft Excel**.   
 6. Select the worksheet that contains the embedded charts.   
 7. on the Tools menu, point to Macro, and then click Macros.    
-8. In the **Macro name** list, click PrintEmbeddedCharts, and then click Run.   
+8. In the **Macro name** list, click PrintEmbeddedCharts, and then click Run.

@@ -1,22 +1,22 @@
 ---
 title: Info about AllowAdalForNonLyncIndependentOfLync setting
-description: Describes the AllowAdalForNonLyncIndependentOfLync setting in Skype for Business, Lync 2013, and Exchange Online in Office 365.
+description: Describes the AllowAdalForNonLyncIndependentOfLync setting in Skype for Business, Lync 2013, and Exchange Online in Microsoft 365.
 author: simonxjx
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
 ms.topic: troubleshooting
 ms.author: v-six
-ms.custom: CSSTroubleshoot
+ms.custom: 
+  - CSSTroubleshoot
 appliesto: 
   - Skype for Business 2016
   - Skype for Business 2015
   - Exchange Online
   - Microsoft Lync 2013
   - Skype for Business Online
-ms.date: 3/31/2022
+ms.date: 03/31/2022
 ---
 
 # Info about AllowAdalForNonLyncIndependentOfLync setting in Skype for Business, Lync 2013, and Exchange Online
@@ -27,10 +27,10 @@ This article contains information about the **AllowAdalForNonLyncIndependentOfLy
 
 ## More information
 
-The information in this article helps IT and Office 365 administrators in the following scenarios: 
+The information in this article helps IT and Microsoft 365 administrators in the following scenarios: 
  
 - Setting up Lync 2013 and Skype for Business users to be homed on Skype for Business Server 2015 or Lync Server 2013 on-premises.    
-- Setting up mailboxes in Exchange Online in Office 365 by using Modern Authentication and Multi-factor Authentication (MFA) with OAuth.    
+- Setting up mailboxes in Exchange Online in Microsoft 365 by using Modern Authentication and Multi-factor Authentication (MFA) with OAuth.    
  
 In these scenarios, the available functionality in the previous environment is as follows: 
  

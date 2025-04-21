@@ -3,17 +3,18 @@ title: Credential prompt after you rest the mouse pointer over the name of a use
 description: This article describes an issue where Credential prompt after you rest the mouse pointer over the name of a user in SharePoint Online or OneDrive for Business, and provides a solution.
 author: helenclu
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
 ms.topic: troubleshooting
 ms.author: luche
-ms.custom: CSSTroubleshoot
+ms.custom: 
+  - sap:Permissions\Errors
+  - CSSTroubleshoot
 appliesto: 
   - SharePoint Online
   - OneDrive for Business
-ms.date: 3/31/2022
+ms.date: 12/17/2023
 ---
 
 # Credential prompt after you rest the mouse pointer over the name of a user in SharePoint Online
@@ -24,7 +25,7 @@ Consider the following scenario:
 
 - You're using Microsoft Office 2016 Click-to-Run.
 
-- You're using an Office 365 Exchange Online mailbox, with Modern Authentication enabled.
+- You're using a Microsoft 365 Exchange Online mailbox, with Modern Authentication enabled.
 
 In this scenario, you may be prompted for credentials intermittently and multiple times in SharePoint Online. This behavior may start to occur when you browse to a SharePoint Online or OneDrive for Business library, and you rest the mouse pointer on the name of a user (such as the **Modified By** user).
 

@@ -1,14 +1,15 @@
 ---
 title: Errors when connecting to SharePoint Online Management Shell
 description: Describes how to resolve connectivity problems to SharePoint Online Management Shell.
-author: salarson
-ms.author: v-matthamer
+author: helenclu
+ms.reviewer: salarson
+ms.author: luche
 manager: dcscontentpm
-localization_priority: Normal
-ms.date: 06/04/2021
+ms.date: 12/17/2023
 audience: Admin
 ms.topic: troubleshooting
 ms.custom: 
+  - sap:Permissions\Errors
   - CSSTroubleshoot
   - CI 150508
 search.appverid: 

@@ -3,7 +3,6 @@ title: Automate process of selecting printer for a report
 description: Describes how to programmatically select a printer and print the reports with the options that you predefine. Assumes you are familiar with the Access database and Visual Basic programming.
 author: helenclu
 manager: dcscontentpm
-localization_priority: Normal
 ms.custom: 
   - CI 111294
   - CSSTroubleshoot
@@ -17,12 +16,10 @@ appliesto:
   - Access 2007
   - Access 2003
   - Access 2002
-ms.date: 3/31/2022
+ms.date: 06/06/2024
 ---
 
 # How to automate the process of selecting the printer for a report in Microsoft Access
-
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
 
 Novice: Requires knowledge of the user interface on single-user computers.
 

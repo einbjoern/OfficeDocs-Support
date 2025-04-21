@@ -1,31 +1,28 @@
 ---
-title: Invalid Security Code for Office 365, Intune, or Azure
-description: Describes an issue in which you receive an error message when you try to reset your admin password for Office 365, Microsoft Intune, or Azure. Provides a resolution.
-author: MaryQiu1987
+title: Invalid Security Code for Microsoft 365, Intune, or Azure
+description: Describes an issue in which you receive an error message when you try to reset your admin password for Microsoft 365, Microsoft Intune, or Azure. Provides a resolution.
+author: helenclu
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
 ms.topic: troubleshooting
-ms.author: v-maqiu
-ms.custom: CSSTroubleshoot
+ms.author: luche
+ms.custom: 
+  - CSSTroubleshoot
 appliesto: 
   - Azure Active Directory
   - Microsoft Intune
   - Azure Backup
-  - Office 365 User and Domain Management
-  - Office 365 Identity Management
-ms.date: 3/31/2022
+  - Microsoft 365 User and Domain Management
+ms.date: 03/31/2022
 ---
 
-# "Invalid Security Code" error when you reset your admin password for Office 365, Intune, or Azure
-
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
+# "Invalid Security Code" error when you reset your admin password for Microsoft 365, Intune, or Azure
 
 ## Problem 
 
-When you try to reset your password by using the self-service password reset for administrators feature in Office 365, Microsoft Intune, or Microsoft Azure, you receive the following error message: 
+When you try to reset your password by using the self-service password reset for administrators feature in Microsoft 365, Microsoft Intune, or Microsoft Azure, you receive the following error message: 
 
 ```asciidoc
 Invalid Security Code
@@ -57,4 +54,4 @@ This issue may occur if one of the following conditions is true:
   > The security code and the Reset your password nowlink is valid only for 10 minutes.   
 - You clicked Reset your password nowfrom a different computer. Or, you opened a new web browser session, which is different from the web browser session in which you started the password reset request.   
 
-Still need help? Go to [Microsoft Community](https://answers.microsoft.com/) or the [Azure Active Directory Forums](https://social.msdn.microsoft.com/forums/azure/home?forum=windowsazuread) website.
+Still need help? Go to [Microsoft Community](https://answers.microsoft.com/) or the [Microsoft Entra Forums](https://social.msdn.microsoft.com/forums/azure/home?forum=windowsazuread) website.

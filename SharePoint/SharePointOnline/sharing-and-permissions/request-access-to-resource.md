@@ -3,23 +3,24 @@ title: User without permission to resource can't receive the option to request a
 description: This article describes an issue that users without permissions to a SharePoint Online resource don't receive the option to request access to the resource, and provides a solution.
 author: helenclu
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
 ms.topic: troubleshooting
-ms.custom: CSSTroubleshoot
+ms.custom: 
+  - sap:Sharing\Access requests
+  - CSSTroubleshoot
 ms.author: luche
 appliesto: 
   - SharePoint Online
-ms.date: 3/31/2022
+ms.date: 12/17/2023
 ---
 
 # Users without permissions to a SharePoint Online resource don't receive the option to request access to the resource
 
 ## Problem
 
-When an existing user in an organization tries to access a SharePoint Online resource in Office 365 for enterprises and the user doesn't have permission to the resource, they receive one of the following error messages:
+When an existing user in an organization tries to access a SharePoint Online resource in Microsoft 365 for enterprises and the user doesn't have permission to the resource, they receive one of the following error messages:
 
 - **Sorry, this site hasn't been shared with you.**
 - **Error: Access Denied**

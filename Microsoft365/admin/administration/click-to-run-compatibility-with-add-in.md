@@ -1,26 +1,24 @@
 ---
 title: Office 2010 Click-to-Run compatibility with add-ins
 description: Discusses Office 2010 Click-to-Run compatibility with add-ins.
-author: MaryQiu1987
-ms.author: v-maqiu
+author: helenclu
+ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
 ms.reviewer: gquintin
-ms.custom: CSSTroubleshoot
+ms.custom: 
+  - CSSTroubleshoot
 search.appverid: 
   - MET150
 appliesto: 
   - Office 2010
-ms.date: 3/31/2022
+ms.date: 03/31/2022
 ---
 
 # Office 2010 Click-to-Run compatibility with add-ins
 
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
-
-##  Summary
+## Summary
 
 Because Microsoft Office 2010 Click-to-Run is in its own virtualized application space, some applications, such as add-ins, cannot access and or work correctly with Office 2010 applications.
 

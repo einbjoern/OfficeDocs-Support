@@ -1,20 +1,22 @@
 ---
 title: Microsoft 365 Apps activation error Your organization has disabled this device
 description: Troubleshooting steps for the error Your organization has disabled this device
-author: vikkarti
-ms.author: v-matthamer
+author: helenclu
+ms.reviewer: vikkarti
+ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
 ms.custom: 
+  - sap:Office Suite (Access, Excel, OneNote, PowerPoint, Publisher, Word, Visio)\Installation, Update, Deployment,  Activation
+  - Activation\Errors\Your organization has disabled this device
   - CSSTroubleshoot
   - CI 157589
 search.appverid: 
   - MET150
 appliesto: 
   - Microsoft 365
-ms.date: 3/31/2022
+ms.date: 02/27/2025
 ---
 
 # Microsoft 365 Apps activation error: “Your organization has disabled this device”
@@ -29,14 +31,14 @@ Try the following troubleshooting methods to solve the problem.
 <br/><br/>
 
 <details>
-<summary><b>Enable the device in Azure Active Directory (Azure AD)</b></summary>
+<summary><b>Enable the device in Microsoft Entra ID</b></summary>
 
 1.	Sign in to the [Azure portal](https://portal.azure.com).
-1.	Select **Azure Active Directory** > **Devices**.
+1.	Select **Microsoft Entra ID** > **Devices**.
 1.	Check the disabled devices list in **Devices**, by searching on the user name or device name.
 1.	Select the device, and then select **Enable**.
   
-If the device has been deleted in Azure AD, you need to re-register it.
+If the device has been deleted in Microsoft Entra ID, you need to re-register it.
 
 1.	Go to **Settings** > **Accounts** > **Access Work or School**.
 1.	Select the account and select **Disconnect**.
@@ -47,16 +49,14 @@ If the device has been deleted in Azure AD, you need to re-register it.
 <details>
 <summary><b>Reset Microsoft 365 activation state</b></summary>
 
-Run the [Microsoft Support and Recovery Assistant (SaRA) to reset the Microsoft 365 activation state](https://aka.ms/SaRA-OfficeActivation-Reset).
-
-For manual steps or more information, see [Reset Microsoft 365 Apps for enterprise activation state]( /office/troubleshoot/activation/reset-office-365-proplus-activation-state).
+See [Reset activation state for Microsoft 365 Apps for enterprise](/office/troubleshoot/activation/reset-office-365-proplus-activation-state).
 <br/><br/>
 </details>
 
 <details>
 <summary><b>Check for a duplicate device</b></summary>
 
-An admin can check for duplicate devices that might be blocking activation, and remove them. For instructions, see [How To: Manage stale devices in Azure AD](/azure/active-directory/devices/manage-stale-devices).
+An admin can check for duplicate devices that might be blocking activation, and remove them. For instructions, see [How To: Manage stale devices in Microsoft Entra ID](/azure/active-directory/devices/manage-stale-devices).
 
 After the duplicate device is removed , delete your BrokerPlugin data and then reinstall it using the following steps:
   
@@ -68,9 +68,9 @@ After the duplicate device is removed , delete your BrokerPlugin data and then r
 `%LOCALAPPDATA%\Packages\Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy\AC\TokenBroker\Accounts`
 1.	Select all files and delete them.  
 1.	Restart the device.  
-1.	Download and run [the SaRA package for sign in issues](https://aka.ms/SaRA-OfficeSignInScenario).  
+1.	Run the [Microsoft 365 sign-in troubleshooter](https://aka.ms/SaRA-OfficeSignIn-sarahome).  
 
-For manual troubleshooting for step 7, or for more information, see [Fix authentication issues in Office applications when you try to connect to an Office 365 service](/office365/troubleshoot/authentication/automatic-authentication-fails).  
+For manual troubleshooting for step 7, or for more information, see [Fix authentication issues in Microsoft 365 applications when you try to connect to a Microsoft 365 service](/microsoft-365/troubleshoot/authentication/automatic-authentication-fails).  
 <br/><br/>
 </details>
 
@@ -79,14 +79,14 @@ For manual troubleshooting for step 7, or for more information, see [Fix authent
 
 Check whether the device is enrolled in MDM using the information in the [Tenant Details section of Troubleshoot devices by using the dsregcmd command](/azure/active-directory/devices/troubleshoot-device-dsregcmd#tenant-details).
 
-If it isn’t, an admin can configure MDM enrollment in Azure AD using the information in [Set up enrollment for Windows devices](/mem/intune/enrollment/windows-enroll#configure-automatic-mdm-enrollment).
+If it isn’t, an admin can configure MDM enrollment in Microsoft Entra ID using the information in [Set up enrollment for Windows devices](/mem/intune/enrollment/windows-enroll#configure-automatic-mdm-enrollment).
 
 After that, enroll the device in MDM. For instructions, see [MDM enrollment of Windows 10-based devices](/windows/client-management/mdm/mdm-enrollment-of-windows-devices).
 <br/><br/>
 </details>
 
 <details>
-<summary><b>Sign in to Azure AD</b></summary>
+<summary><b>Sign in to Microsoft Entra ID</b></summary>
 
 1.	Open a Command Prompt window as an administrator. From Start, type *cmd.exe* in the search box, right-click **Command Prompt** in the list, and then select **Run as administrator**.
 1.	Type the following command, and then press Enter:
@@ -98,12 +98,12 @@ After that, enroll the device in MDM. For instructions, see [MDM enrollment of W
 </details>
 
 <details>
-<summary><b>Leave and rejoin Azure AD</b></summary>
+<summary><b>Leave and rejoin Microsoft Entra ID</b></summary>
 
 1.	Open a Command Prompt window as an administrator. From Start, type *cmd.exe* in the search box, right-click **Command Prompt** in the list, and then select **Run as administrator**.
 1.	Type the following command, and then press Enter:
 `dsregcmd /status`
-1.	Check if the device is joined to Azure AD. For more details, see [Troubleshoot devices by using the dsregcmd command](/azure/active-directory/devices/troubleshoot-device-dsregcmd).
+1.	Check if the device is joined to Microsoft Entra ID. For more details, see [Troubleshoot devices by using the dsregcmd command](/azure/active-directory/devices/troubleshoot-device-dsregcmd).
 1.	If the **AzureAdjoined** value is **YES**, continue to step 5. If it’s **NO**, skip to step 11.
 1.	Type the following command, and then press Enter:
 `dsregcmd /leave`

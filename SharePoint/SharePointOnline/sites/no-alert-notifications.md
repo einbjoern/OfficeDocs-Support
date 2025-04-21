@@ -3,23 +3,24 @@ title: Users don't receive SharePoint Online alert notifications
 description: This article describes an issue that users don't receive SharePoint Online alert notifications, and provides a solution.
 author: helenclu
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
 ms.topic: troubleshooting
 ms.author: luche
-ms.custom: CSSTroubleshoot
+ms.custom: 
+  - sap:Lists and Libraries\Alerts
+  - CSSTroubleshoot
 appliesto: 
   - SharePoint Online
-ms.date: 3/31/2022
+ms.date: 12/17/2023
 ---
 
 # Users don't receive SharePoint Online alert notifications
 
 ## Problem
 
-In an Office 365 environment, users don't receive SharePoint Online alert notifications as expected. Specifically, users may experience one or more of the following symptoms:
+In a Microsoft 365 environment, users don't receive SharePoint Online alert notifications as expected. Specifically, users may experience one or more of the following symptoms:
 
 - Alert email messages aren't received after an alert is created.
 
@@ -44,7 +45,7 @@ For more information about Permission Levels, see [Understanding Permission Leve
 
 ### Solution 2
 
-Verify that new alerts work. To do this, create a new alert on a test library or on a test list. Perform an action to generate the alert. For example, add, edit, or delete an item. Then, wait 15 minutes. If the alert isn't received, collect the following information, and then contact Microsoft Office 365 technical support:
+Verify that new alerts work. To do this, create a new alert on a test library or on a test list. Perform an action to generate the alert. For example, add, edit, or delete an item. Then, wait 15 minutes. If the alert isn't received, collect the following information, and then contact Microsoft 365 technical support:
 
 - Verify the last known time that alerts were received.
 - Record the exact steps to reproduce the issue in the new alert.

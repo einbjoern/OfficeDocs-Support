@@ -6,25 +6,24 @@ ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
 ms.reviewer: bradthor
-ms.custom: CSSTroubleshoot
+ms.custom: 
+  - Reliability
+  - CSSTroubleshoot
 search.appverid: 
   - MET150
 appliesto: 
   - Microsoft Excel for Mac 2011
-  - Excel for Mac for Office 365
+  - Excel for Microsoft 365 for Mac 
   - Microsoft Office Excel 2003
   - Microsoft Office Excel 2007
   - Excel 2010
   - Excel 2013
   - Excel 2016
-ms.date: 3/31/2022
+ms.date: 06/06/2024
 ---
 
 # Excel incorrectly assumes that the year 1900 is a leap year
-
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
 
 ## Symptoms
 

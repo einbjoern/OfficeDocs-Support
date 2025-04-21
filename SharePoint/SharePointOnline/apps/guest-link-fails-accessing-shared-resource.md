@@ -5,14 +5,15 @@ author: helenclu
 manager: dcscontentpm
 search.appverid: 
   - MET150
-localization_priority: Normal
 audience: ITPro
 ms.topic: troubleshooting
 ms.author: luche
-ms.custom: CSSTroubleshoot
+ms.custom: 
+  - sap:App Bar and Navigation\Other
+  - CSSTroubleshoot
 appliesto: 
   - SharePoint Online
-ms.date: 3/31/2022
+ms.date: 12/17/2023
 ---
 
 # "Couldn't connect to the catalog server for this app" error when you click a guest link to a SharePoint Online item
@@ -36,7 +37,7 @@ To work around this issue, publish your app to the Office Store. Or, provide an 
 
 ## More information
 
-This error occurs because the guest user has access to the content that uses the app, but he or she does not have access to the app catalog.
+This error occurs because the guest user has access to the content that uses the app, but doesn't have access to the app catalog.
 
 For more information about apps for Office and SharePoint, go to the [Getting Started with Office Development](https://developer.microsoft.com/office/docs).
 

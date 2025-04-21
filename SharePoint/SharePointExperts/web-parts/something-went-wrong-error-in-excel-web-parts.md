@@ -2,17 +2,19 @@
 title: A We don't know what happened, but something went wrong error in Excel Web Access Web Parts
 description: Fixes the error about Excel Services when you try to view a Microsoft Excel workbook in the Excel Web Access Web Part.
 author: helenclu
-ms.author: remcgurk
+ms.author: luche
+ms.reviewer: remcgurk
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
 ms.topic: troubleshooting
-ms.custom: sap:spsexperts, CSSTroubleshoot
+ms.custom: 
+  - sap:User experience\Webpart infrastructure
+  - CSSTroubleshoot
 appliesto: 
   - Microsoft SharePoint
-ms.date: 3/31/2022
+ms.date: 12/17/2023
 ---
 
 # "We don't know what happened, but something went wrong." error in Excel Web Access Web Parts

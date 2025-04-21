@@ -3,10 +3,9 @@ title: Access error Your network access was interrupted when using a mapped driv
 ms.author: luche
 author: helenclu
 manager: dcscontentpm
-ms.date: 9/26/2019
+ms.date: 06/06/2024
 audience: Admin
 ms.topic: troubleshooting
-localization_priority: Normal
 search.appverid: 
   - SPO160
   - MET150
@@ -20,8 +19,6 @@ description: Describes how to resolve an error where the connection is dropped w
 ---
 
 # Access error "Your network access was interrupted" when using a mapped drive
-
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
 
 ## Symptoms
 

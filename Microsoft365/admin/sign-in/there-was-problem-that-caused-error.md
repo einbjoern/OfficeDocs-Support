@@ -1,14 +1,14 @@
 ---
 title: Parts of Online Services Sign-in Assistant to be disabled error when signing in cloud service
-description: Discusses a scenario in which you experience authentication issues in Office 365, Azure, or Microsoft Intune and you receive an error that states there was a problem that caused parts of the Microsoft Online Services Sign-in Assistant to be disabled. A resolution is provided.
-author: MaryQiu1987
-ms.author: v-maqiu
+description: Discusses a scenario in which you experience authentication issues in Microsoft 365, Azure, or Microsoft Intune and you receive an error that states there was a problem that caused parts of the Microsoft Online Services Sign-in Assistant to be disabled. A resolution is provided.
+author: helenclu
+ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
 ms.reviewer: dahans
-ms.custom: CSSTroubleshoot
+ms.custom: 
+  - CSSTroubleshoot
 search.appverid: 
   - MET150
 appliesto: 
@@ -16,20 +16,15 @@ appliesto:
   - Azure Active Directory
   - Microsoft Intune
   - Azure Backup
-  - Microsoft Windows XP Professional
-  - Microsoft Windows XP Home Edition
-  - Office 365 User and Domain Management
-  - Office 365 Identity Management
-ms.date: 3/31/2022
+  - Microsoft 365
+ms.date: 03/31/2022
 ---
 
 # You receive a "There was a problem that caused parts of the Microsoft Online Services Sign-in Assistant to be disabled" error
 
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
-
 ## Problem
 
-You experience sign-in issues in a Microsoft cloud service such as Office 365, Microsoft Azure, or Microsoft Intune. Specifically, you see a pop-up dialog box that contains the following error message:
+You experience sign-in issues in a Microsoft cloud service such as Microsoft 365, Microsoft Azure, or Microsoft Intune. Specifically, you see a pop-up dialog box that contains the following error message:
 
 > There was a problem that caused parts of the Microsoft Online Services Sign-in Assistant to be disabled. The problem may have been caused by a program that was recently installed.
 
@@ -62,7 +57,7 @@ Did this fix the problem?
 
 - Check whether the problem is fixed.
   - If the problem is fixed, you are finished with these steps.    
-  - If the problem is not fixed, go to the [Microsoft Community](https://answers.microsoft.com/), the [Azure Active Directory Forums](https://social.msdn.microsoft.com/forums/azure/home?forum=windowsazuread) website, or [contact support](https://support.microsoft.com/contactus).   
+  - If the problem is not fixed, go to the [Microsoft Community](https://answers.microsoft.com/), the [Microsoft Entra Forums](https://social.msdn.microsoft.com/forums/azure/home?forum=windowsazuread) website, or [contact support](https://support.microsoft.com/contactus).   
    
 - We would appreciate your feedback. To provide feedback or to report any issues with this solution, please send us an [email](mailto:fixit4me@microsoft.com?subject=kb) message.   
 
@@ -71,6 +66,6 @@ Did this fix the problem?
 
 For more information about related technical issues, see the following Microsoft Knowledge Base article: 
 
-[2637629](https://support.microsoft.com/help/2637629) How to troubleshoot non-browser apps that can't sign in to Office 365, Azure, or Intune
+[2637629](https://support.microsoft.com/help/2637629) How to troubleshoot non-browser apps that can't sign in to Microsoft 365, Azure, or Intune
 
-Still need help? Go to [Microsoft Community](https://answers.microsoft.com/) or the [Azure Active Directory Forums](https://social.msdn.microsoft.com/forums/azure/home?forum=windowsazuread) website.
+Still need help? Go to [Microsoft Community](https://answers.microsoft.com/) or the [Microsoft Entra Forums](https://social.msdn.microsoft.com/forums/azure/home?forum=windowsazuread) website.

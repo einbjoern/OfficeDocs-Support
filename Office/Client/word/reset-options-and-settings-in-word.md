@@ -3,23 +3,22 @@ title: How to reset user options and registry settings in Word
 description: Provides a step-by-step guide to reset registry settings and user options in Word.
 author: helenclu
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
 ms.topic: troubleshooting
 ms.custom: 
+  - sap:Office Suite (Access, Excel, OneNote, PowerPoint, Publisher, Word, Visio)\Performance, Usability & Features
+  - Reliability
   - CSSTroubleshoot
   - CI 147051
 ms.author: luche
 appliesto: 
   - Microsoft Word
-ms.date: 3/31/2022
+ms.date: 06/06/2024
 ---
 
 # How to reset user options and registry settings in Word
-
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
 
 > [!IMPORTANT]
 > This article contains information about how to modify the registry. Make sure to back up the registry before you modify it. Make sure that you know how to restore the registry if a problem occurs. For more information about how to back up, restore, and modify the registry, see [Description of the Microsoft Windows registry](https://support.microsoft.com/help/256986).

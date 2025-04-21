@@ -1,19 +1,20 @@
 ---
 title: Creating a team site from SharePoint Home doesn’t finish
 description: When you try to create a team site from SharePoint Home, the site creation process never finishes.
-author: salarson
+author: helenclu
+ms.reviewer: salarson
 manager: dcscontentpm
-localization_priority: Normal
-ms.date: 06/04/2021
+ms.date: 12/17/2023
 search.appverid: 
   - MET150
 audience: ITPro
 ms.topic: troubleshooting
 ms.custom: 
+  - sap:Sites\Other
   - CSSTroubleshoot
   - CI 150328
 ms.collection: SPO_Content
-ms.author: v-matthamer
+ms.author: luche
 appliesto: 
   - SharePoint Online
 ---

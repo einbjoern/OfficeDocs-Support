@@ -1,20 +1,20 @@
 ---
 title: Accept button is missing on a calendar from a sharing invitation
 description: Describes a scenario in which the Accept button is missing when a user tries to open a calendar from a sharing invitation in Outlook on the web.
-author: simonxjx
-ms.author: v-six
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
 ms.custom: 
+  - sap:Outlook on the web / OWA
   - Exchange Online
   - CSSTroubleshoot
-ms.reviewer: alinastr
+ms.reviewer: alinastr, v-six
 appliesto: 
   - Exchange Online
 search.appverid: MET150
-ms.date: 3/31/2022
+ms.date: 01/24/2024
 ---
 # Can't open a calendar from a sharing invitation in Outlook on the web
 
@@ -32,12 +32,12 @@ This issue occurs if a disclaimer transport rule is applied to calendaring messa
 
 ## Solution
 
-To resolve this issue, do one of the following:
+To resolve this issue, use one of the following methods:
 
 - Change the fallback action of the disclaimer transport rule from **Wrap** to **Ignore**.
 - Change the disclaimer transport rule to skip calendaring sharing invitations. For example, add an exception that specifies the following conditions:
 
-    Except if: **The subject or body** > **subject or body includes any of these words** > has invited you to view his or her Microsoft Exchange Calendar or Sharing invitation or Sharing request or I'd like to share my calendar with you or You're invited to share this calendar
+    Except if: **The subject or body** > **subject or body includes any of these words** > has invited you to view their Microsoft Exchange Calendar or Sharing invitation or Sharing request or I'd like to share my calendar with you or You're invited to share this calendar
 
    :::image type="content" source="media/cannot-open-calendar-from-sharing-invitation/exception.png" alt-text="Screenshot of the exception that's added to the disclaimer transport rule.":::
 

@@ -1,14 +1,16 @@
 ---
 title: Description of the numbering scheme for product code GUIDs in Office 2013
-description: Describes how to read the product GUIDs in the Windows registry to determine information about the Office 2013 suite, programs, or utilities that you are using.
+description: Describes how to read the product GUIDs in the Windows registry to determine information about the Office 2013 suite, programs, or utilities that you're using.
 author: helenclu
 ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
 ms.reviewer: doakm
-ms.custom: CSSTroubleshoot
+ms.custom: 
+  - sap:Office Suite (Access, Excel, OneNote, PowerPoint, Publisher, Word, Visio)\Installation, Update, Deployment,  Activation
+  - DownloadInstall\AdvancedConfiguration\OfficeDeploymentTool
+  - CSSTroubleshoot
 search.appverid: 
   - MET150
 appliesto: 
@@ -31,28 +33,26 @@ appliesto:
   - Project 2013 Standard
   - Project Server 2013
   - SharePoint Server 2013
-ms.date: 3/31/2022
+ms.date: 06/06/2024
 ---
 
 # Description of the numbering scheme for product code GUIDs in Office 2013
 
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
+## Summary
 
-##  Summary
+This article describes how to read the product GUIDs in the Windows registry to determine information about the Microsoft Office 2013 suite, programs, or utilities that you're using. GUIDs contain information about the release type, the release version, and the language of an Office 2013 suite or program.
 
-This article describes how to read the product GUIDs in the Windows registry to determine information about the Microsoft Office 2013 suite, programs, or utilities that you are using. GUIDs contain information about the release type, the release version, and the language of an Office 2013 suite or program. 
+**Note** GUIDs are created only when a user installs a Windows Installer (MSI) version of the Office 2013 suite or of an Office 2013 program. GUIDs aren't created when a user installs a Click-to-Run version of the Office 2013 suite or of an Office 2013 program.
 
-**Note** GUIDs are created only when a user installs a Windows Installer (MSI) version of the Office 2013 suite or of an Office 2013 program. GUIDs are not created when a user installs a Click-to-Run version of the Office 2013 suite or of an Office 2013 program.
+## More Information
 
-##  More Information
+When you install the Office 2013 suite or one of the stand-alone Office 2013 programs, one or more product codes, or GUIDs, are created in the following registry subkey:
 
-When you install the Office 2013 suite or one of the stand-alone Office 2013 programs, one or more product codes, or GUIDs, are created in the following registry subkey: 
-
-**HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall** 
+**`HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall`**
 
 If you install a 32-bit version of Office 2013 on a 64-bit version of Windows, the GUIDs are created in the following registry subkey:
 
-**HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall**
+**`HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall`**
 
 Each GUID uses the following format: 
 
@@ -75,20 +75,26 @@ The following table describes the characters of the GUID.
 
 To view the GUIDs for the Office 2013 suites and programs that are installed on a computer, follow these steps: 
 
-1.  Click **Start**, click **Run**, type regedit, and then click **OK**.    
-2.  Locate the following subkey: **HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall** The names of the GUIDs start with a brace ({ ). Therefore, GUIDs are the first items that are listed under **Uninstall**.    
+1. Select **Start** > **Run**, type `regedit`, and then select **OK**.
+2. Locate the following subkey:
+
+   **`HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall`**
+
+   The names of the GUIDs start with a brace ({ ). Therefore, GUIDs are the first items that are listed under **Uninstall**.
+
 Each GUID data pane contains multiple values, including the values that are described in the following table.
 
-    |Value name|Description|
-    |--|--|
-    |DisplayName|The product name that appears in the **Add or Remove Programs** dialog box|
-    |InstallDate|The date that the product was installed|
-    |Product ID|The product ID|
-    |InstallSource|The installation source|
-    |RegCompany|The registered company|
-    |RegOwner|The registered user name|
+|Value name|Description|
+|--|--|
+|DisplayName|The product name that appears in the **Add or Remove Programs** dialog box|
+|InstallDate|The date that the product was installed|
+|Product ID|The product ID|
+|InstallSource|The installation source|
+|RegCompany|The registered company|
+|RegOwner|The registered user name|
 
 ### Release version
+
 The release version values specify the level of the release, such as a beta version or a release to manufacturing (RTM) version. The following table contains more information about the release version values. 
 
   |Value name|Release|
@@ -99,13 +105,14 @@ The release version values specify the level of the release, such as a beta vers
   |3|Release Candidate 0 (RC0)|
   |4|Release Candidate 1 (RC1)/OEM Preview release|
   |5-8|Reserved values|
-  |9|RTM. This is the first version that is shipped (the initial release).|
-  |A|Service Pack 1 (SP1). This value is not used if the product code is not changed after the RTM version|
-  |B|Service Pack 2 (SP2). This value is not used if the product code is not changed after the RTM version|
-  |C|Service Pack 3 (SP3). This value is not used if the product code is not changed after the RTM version|
+  |9|RTM. This value is the first version that is shipped (the initial release).|
+  |A|Service Pack 1 (SP1). This value isn't used if the product code isn't changed after the RTM version|
+  |B|Service Pack 2 (SP2). This value isn't used if the product code isn't changed after the RTM version|
+  |C|Service Pack 3 (SP3). This value isn't used if the product code isn't changed after the RTM version|
   |D-F|Reserved values|
 
 ### Release type
+
 The release type specifies the audience for a 2013 Office suite, such as enterprise or retail. The following table contains more information about the 2013 Office suite release types. 
 
 |Value|Release type|
@@ -116,6 +123,7 @@ The release type specifies the audience for a 2013 Office suite, such as enterpr
 |5|Download|
 
 ### Product ID
+
 The product ID is the version of the Office 2013 suite or program, such as Office Professional 2013 or Office Standard 2013. The following table contains more information about the Office 2013 product IDs.
 
 Product ID|SKU|
@@ -146,8 +154,11 @@ Product ID|SKU|
 |012B|Microsoft Lync 2013|
 
 ### Language identifier
+
 The language identifier (LCID) varies from language to language. Because the LCID is stored in the GUID in a hexadecimal format, you may have to convert the LCID value to a decimal value to determine the language. For example, a hexadecimal value of 0409 converts to a decimal value of 1033. This value represents English. 
 
 For more information about language identifiers in Office 2013 suites and programs, go to the following Microsoft website: [Language identifiers and OptionState Id values in Office 2013](https://technet.microsoft.com/library/cc179219.aspx )
+
 ### Sample GUID
+
 Assume that the first 16 digits of a GUID are "91150000-0011-0407." This example GUID was created by the initial release version (9) of a Retail or OEM edition (1), version 15.0000, of Microsoft Office Professional Plus 2013 (0011). The language of the product is German. In this case, the hexadecimal value 0407 converts to the decimal value 1031. This value represents German.

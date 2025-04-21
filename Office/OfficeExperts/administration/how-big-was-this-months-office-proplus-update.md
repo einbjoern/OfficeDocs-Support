@@ -1,25 +1,29 @@
 ---
 title: How to check the size of this month's Office ProPlus update
 description: This article explains how to find the size of a package by using Process Monitor.
-author: MaryQiu1987
+author: helenclu
+ms.author: luche
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
-ms.custom: sap:office-experts, CSSTroubleshoot
+ms.custom: 
+  - sap:Office Suite (Access, Excel, OneNote, PowerPoint, Publisher, Word, Visio)\Installation, Update, Deployment,  Activation
+  - DownloadInstall\Updates\ProblemsInstallingUpdates
+  - sap:office-experts
+  - CSSTroubleshoot
 ms.topic: troubleshooting
-ms.author: ericspli
+ms.reviewer: ericspli
 appliesto: 
   - Microsoft 365 Apps for enterprise
-ms.date: 3/31/2022
+ms.date: 06/06/2024
 ---
 
 # How to check the size of this month's Office ProPlus update
 
 This article was written by [Eric Splichal](https://social.technet.microsoft.com/profile/Splic-MSFT), Support Escalation Engineer.
 
-Microsoft Office 365 updates are designed to be very network bandwidth friendly. There is Binary Delta Compression that occurs as long as the computers are staying current and Office has built in throttles to prevent every computer from trying to update at the same time. However, IT admins will sometimes still have to monitor the size of the monthly updates closely. Here are the steps about how to determine how large the update for Office ProPlus:
+Microsoft 365 updates are designed to be very network bandwidth friendly. There is Binary Delta Compression that occurs as long as the computers are staying current and Office has built in throttles to prevent every computer from trying to update at the same time. However, IT admins will sometimes still have to monitor the size of the monthly updates closely. Here are the steps about how to determine how large the update for Office ProPlus:
 
 1. Download and install [Process Monitor](/sysinternals/downloads/procmon).
 1. When you start Process Monitor, the filter menu may auto load. However, if it doesn't, select **Filter** > **filter** to open the filter menu. Also, exclude the following Event Classes:

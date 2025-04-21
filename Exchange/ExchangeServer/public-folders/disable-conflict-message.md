@@ -1,21 +1,22 @@
 ---
 title: How to disable public folder Conflict Message notification
 description: Explains how to disable public folder Conflict Message notification in Exchange Server.
-author: simonxjx
+author: cloud-writer
+ms.author: meerak
 audience: ITPro
 ms.topic: troubleshooting
-ms.author: v-six
 ms.custom: 
+  - sap:Migration\Issues with Public Folder Migration
   - Exchange Server
   - CSSTroubleshoot
+  - CI 163890
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 appliesto: 
   - Exchange Server 2010 Enterprise
-ms.reviewer: bilong
-ms.date: 3/31/2022
+ms.reviewer: bilong, v-six
+ms.date: 01/24/2024
 ---
 # How to disable public folder Conflict Message notification
 
@@ -51,8 +52,6 @@ You can change this value programmatically, or you can use one of the tools that
 
 > [!NOTE]
 > Changing the value of the **PR_RESOLVE_METHOD** property does not resolve existing conflicts.
-
-For more information about how to programmatically change the value of the [PR_RESOLVE_METHOD](/office/client-developer/outlook/mapi/pidtagresolvemethod-canonical-property) property, go to the MSDN website to search for the [PR_RESOLVE_METHOD](https://social.msdn.microsoft.com/search/?query=pr_resolve_method%20&ac=8) property.
 
 ### How to use ExFolders to change the value of PR_RESOLVE_METHOD
 

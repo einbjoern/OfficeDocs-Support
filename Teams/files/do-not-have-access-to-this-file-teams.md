@@ -1,13 +1,12 @@
 ---
 title: Error (You don't have access to this file) when opening a file in Teams
 description: Provides a resolution to an issue in which user can't open a file that is automatically stored in OneDrive in Teams.
-ms.author: prbalusu
+ms.author: luche
 author: helenclu
 manager: dcscontentpm
-ms.date: 11/26/2020
+ms.date: 10/30/2023
 audience: Admin
 ms.topic: troubleshooting
-localization_priority: Normal
 search.appverid: 
   - SPO160
   - MET150
@@ -15,6 +14,7 @@ appliesto:
   - Microsoft OneDrive for Business
   - Microsoft Teams
 ms.custom: 
+  - sap:Teams Files\Access File
   - CI 125301
   - CSSTroubleshoot
 ms.reviewer: prbalusu

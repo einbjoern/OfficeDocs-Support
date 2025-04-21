@@ -1,39 +1,39 @@
 ---
 title: Another account is already signed in computer when signing in to Office 2013
-description: Fixes an error message that occurs when you try to sign in to an Office 2013 app by using Office 365 credentials.
+description: Fixes an error message that occurs when you try to sign in to an Office 2013 app by using Microsoft 365 credentials.
 author: helenclu
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
-ms.custom: CSSTroubleshoot
+ms.custom: 
+  - sap:Office Suite (Access, Excel, OneNote, PowerPoint, Publisher, Word, Visio)\Installation, Update, Deployment,  Activation
+  - Activation\Errors\Sorry another account from your organization is already signed in on this computer
+  - CSSTroubleshoot
 ms.topic: troubleshooting
 ms.author: luche
 appliesto: 
-  - Office 365
+  - Microsoft 365
   - Office 2013
-ms.date: 3/31/2022
+ms.date: 02/25/2025
 ---
 
 # "Sorry, another account from your organization is already signed in on this computer" in Office 2013
 
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
-
 ## Symptoms
 
-When you try to sign in to an Office 2013 app by using your Office 365 user ID and password, you receive the following error message:  
+When you try to sign in to an Office 2013 app by using your Microsoft 365 user ID and password, you receive the following error message:  
 
 > Sorry, another account from your organization is already signed in on this computer.
 
 ## Cause
 
-This behavior is expected. It occurs if another account is already signed in to Office 2013 by using a different Office 365 user account within the same organization.
+This behavior is expected. It occurs if another account is already signed in to Office 2013 by using a different Microsoft 365 user account within the same organization.
 
 ## Resolution
 
 > [!TIP]
-> To diagnose and automatically fix several common Office sign-in issues, you can download and run the [Microsoft Support and Recovery Assistant](https://aka.ms/SaRA-OfficeSignInScenario).
+> To diagnose and automatically fix common Office sign-in issues, run the [Microsoft 365 sign-in troubleshooter](https://aka.ms/SaRA-OfficeSignIn-sarahome).
 
 Sign out of the first account that signed in, then restart that computer. If this solution does not resolve the issue, try the workaround below.
 
@@ -104,18 +104,18 @@ Sign out of Microsoft Office using any Office product: Word, Excel, PowerPoint, 
 
 ## More information
 
-For more information, see [Recommendations on resolving common sign-in issues](/office365/troubleshoot/administration/disabling-adal-wam-not-recommended#recommendations-on-resolving-common-sign-in-issues).
+For more information, see [Recommendations on resolving common sign-in issues](/microsoft-365/troubleshoot/administration/disabling-adal-wam-not-recommended#recommendations-on-resolving-common-sign-in-issues).
 
-In Office 2013 apps, you can access Office 365 content in SharePoint Online by providing your Office 365 user ID and password. If you have multiple Office 365 user IDs from different organizations, you can access content from the SharePoint Online deployments of each organization.
+In Office 2013 apps, you can access Microsoft 365 content in SharePoint Online by providing your Microsoft 365 user ID and password. If you have multiple Microsoft 365 user IDs from different organizations, you can access content from the SharePoint Online deployments of each organization.
 
-However, Office 2013 only supports one Office 365 user sign-in from each tenant or organization per session.
+However, Office 2013 only supports one Microsoft 365 user sign-in from each tenant or organization per session.
 
-Office 2013 makes a best effort to prevent a second user from signing in when another user from the same organization is already signed in. However, there may be cases in which this scenario is not detected and the Office 2013 user interface may show that another user is successfully signed in. In this case, the second user cannot access his or her own content. All Office 365 content that he or she tries to open will be performed by using the first user's credentials.
+Office 2013 makes a best effort to prevent a second user from signing in when another user from the same organization is already signed in. However, there may be cases in which this scenario isn't detected and the Office 2013 user interface may show that another user is successfully signed in. In this case, the second user can't access the content. All Microsoft 365 content that the second user tries to open will be performed by using the first user's credentials.
 
 Be aware that Office 2013 respects the permissions of all documents and SharePoint Online libraries. That is, if the first user doesn't have access to a document that the second user has access to, and the second user (who believes they are signed in) attempts to open that document, the document will not open because Office tries to open the document as the first user.
 
-To fix this scenario, the signed-in user should sign out of Office 2013, and then restart his or her computer. Doing this makes sure that a clean state is present when the other user tries to sign in again.
+To fix this scenario, the signed-in users should sign out of Office 2013, and then restart their computer. Doing this makes sure that a clean state is present when the other user tries to sign in again.
 
-If restarting the computer does not resolve the issue, then adjusting the registry is the recommended solution.  
+If restarting the computer doesn't resolve the issue, then adjusting the registry is the recommended solution.  
 
 Still need help? Go to [Microsoft Community](https://answers.microsoft.com/).

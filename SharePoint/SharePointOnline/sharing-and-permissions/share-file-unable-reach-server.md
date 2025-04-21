@@ -3,20 +3,20 @@ title: Unable to reach the server when sharing files
 description: This article fixes an issue in which you receive an Unable to reach the server message when you share files or folders.
 author: helenclu
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
 ms.topic: troubleshooting
 ms.author: luche
 ms.custom: 
+  - sap:Sharing\Sharing links
   - CSSTroubleshoot
   - CI 160069
 ms.reviewer: salarson
 appliesto: 
   - SharePoint Online
   - OneDrive
-ms.date: 3/31/2022
+ms.date: 12/17/2023
 ---
 
 # "Unable to reach the server" error when sharing files or folders in SharePoint or OneDrive
@@ -86,6 +86,6 @@ The diagnostic performs a large range of verifications for internal users or gue
 
 ## More information
 
-["The number of items in this list exceeds the list view threshold" when you view lists in Office 365](../lists-and-libraries/items-exceeds-list-view-threshold.md)
+["The number of items in this list exceeds the list view threshold" when you view lists in Microsoft 365](../lists-and-libraries/items-exceeds-list-view-threshold.md)
 
 Still need help? Go to [SharePoint Community](https://techcommunity.microsoft.com/t5/sharepoint/ct-p/SharePoint).

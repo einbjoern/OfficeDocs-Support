@@ -1,29 +1,28 @@
 ---
 title: Word slows or stops responding
 description: Fixes an issue in which Word slows down or stops responding if you don't periodically accept or reject tracked changes in a document.
-author: MaryQiu1987
-ms.author: v-maqiu
+author: helenclu
+ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
 ms.custom: 
+  - sap:Office Suite (Access, Excel, OneNote, PowerPoint, Publisher, Word, Visio)\Performance, Usability & Features
+  - Reliability
   - CI 112326
   - CSSTroubleshoot
 ms.reviewer: warrenr
 appliesto: 
-  - Word for Office 365
+  - Word for Microsoft 365
   - Word 2019
   - Word 2016
   - Word 2013
   - Word 2010
 search.appverid: MET150
-ms.date: 3/31/2022
+ms.date: 06/06/2024
 ---
 
 # Word slows or stops responding if there are excessive tracked changes or comments
-
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
 
 ## Symptoms
 

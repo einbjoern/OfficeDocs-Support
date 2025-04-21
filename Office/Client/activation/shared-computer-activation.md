@@ -1,27 +1,29 @@
 ---
 title: Issues with shared computer activation for Microsoft 365 Apps
 description: Troubleshooting steps for issues with shared computer activation for Microsoft 365 Apps.
-author: vikkarti
-ms.author: v-matthamer
+author: helenclu
+ms.reviewer: vikkarti
+ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
 ms.custom: 
+  - sap:Office Suite (Access, Excel, OneNote, PowerPoint, Publisher, Word, Visio)\Installation, Update, Deployment,  Activation
+  - Activation\Deploying Office using Shared Computer Activation
   - CSSTroubleshoot
   - CI 157761
 search.appverid: 
   - MET150
 appliesto: 
   - Microsoft 365
-ms.date: 3/31/2022
+ms.date: 02/25/2025
 ---
 
 # Troubleshoot issues with shared computer activation for Microsoft 365 Apps
 
 If you're having problems getting shared computer activation to work when you deploy Microsoft 365 Apps to shared computers in your organization, try the following to fix the problem.
 
-If you’re encountering a specific error message, or you’re using RDS, VDI, Citrix, or FSLogix, you can go directly to the appropriate section:
+If you're encountering a specific error message, or you're using RDS, VDI, Citrix, or FSLogix, go directly to the appropriate section:
 
 - <a href="#errors">Specific error messages</a>
 
@@ -33,7 +35,7 @@ Otherwise, start with the <a href=#general>General troubleshooting section</a>.
 
 **Tip**
 
-You can download and run the [Microsoft Support and Recovery Assistant](https://aka.ms/SaRA_TshootOfficeSCA_Docs) to install Microsoft 365 Apps in shared computer activation mode.
+You can use the [Microsoft 365 shared computer activation (SCA) troubleshooter](https://aka.ms/SaRA-OfficeSCA-sarahome) to enable shared computer activation for Microsoft 365 applications.
 
 <h2 id="general"> General troubleshooting</h2>
 <br/>
@@ -63,9 +65,9 @@ To activate Microsoft 365 Apps, TLS 1.2 must be enabled on the operating system.
 </details>
 
 <details>
-<summary><b>Check that your Office 365 plan supports shared computer activation</b></summary>
+<summary><b>Check that your Microsoft 365 plan supports shared computer activation</b></summary>
 
-To use shared computer activation, you must have an Office 365 (or Microsoft 365) plan that includes Microsoft 365 Apps and that supports shared computer activation. For more information, see [How to enable shared computer activation for Microsoft 365 Apps](/DeployOffice/overview-shared-computer-activation#how-to-enable-shared-computer-activation-for-microsoft-365-apps)
+To use shared computer activation, you must have a Microsoft 365 plan that includes Microsoft 365 Apps and that supports shared computer activation. For more information, see [How to enable shared computer activation for Microsoft 365 Apps](/DeployOffice/overview-shared-computer-activation#how-to-enable-shared-computer-activation-for-microsoft-365-apps)
 
 **Note** You also can use shared computer activation with the subscription versions of the Project and Visio desktop apps. You just need a subscription plan that includes those products.
 <br/><br/>
@@ -76,7 +78,7 @@ To use shared computer activation, you must have an Office 365 (or Microsoft 365
 
 Here are two ways that you can check whether shared computer activation is enabled on the computer that has Microsoft 365 Apps installed.
 
-- Open any Office program, such as Word. Go to **File** > **Account** > **About Word** (or "About" whichever app you opened). On the second line from the top, underneath the MSO version number, you should see **Shared Computer Activation**, instead of a Product ID, like in the following screenshot.
+- Open any Microsoft 365 application, such as Word. Go to **File** > **Account** > **About Word** (or "About" whichever app you opened). On the second line from the top, underneath the MSO version number, you should see **Shared Computer Activation**, instead of a Product ID, like in the following screenshot.
 
 - Use Registry Editor, and go to `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\ClickToRun\Configuration`. There should be a value for **SharedComputerLicensing** with a setting of 1.
 <br/><br/>
@@ -96,7 +98,7 @@ For more information, see the following articles:
 <details>
 <summary><b>Verify that activation for Microsoft 365 Apps succeeded</b></summary>
 
-On the shared computer, after you open any Office program, go to the following folder:
+On the shared computer, after you open any Microsoft 365 application, go to the following folder:
 
 `%localappdata%\Microsoft\Office\16.0\Licensing`
 
@@ -109,9 +111,7 @@ If you've configured the licensing token to roam, these text files will appear i
 <details>
 <summary><b>Reset Microsoft 365 activation state</b></summary>
 
-Run the [Microsoft Support and Recovery Assistant (SaRA) to reset the Microsoft 365 activation state](https://aka.ms/SaRA-OfficeActivation-Reset).
-
-For manual steps or more information, see [Reset Microsoft 365 Apps for enterprise activation state](/office/troubleshoot/activation/reset-office-365-proplus-activation-state).
+See [Reset activation state for Microsoft 365 Apps for enterprise](/office/troubleshoot/activation/reset-office-365-proplus-activation-state).
 <br/><br/>
 </details>
 
@@ -168,9 +168,9 @@ If the process isn’t blocked, but you still can’t activate Microsoft 365, de
 `%LOCALAPPDATA%\Packages\Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy\AC\TokenBroker\Accounts`
 1.	Select all files and delete them.
 1.	Restart the device.
-1.	Download and run [the SaRA package for sign in issues](https://aka.ms/SaRA-OfficeSignInScenario).
+1.	Run the [Microsoft 365 sign-in troubleshooter](https://aka.ms/SaRA-OfficeSignIn-sarahome) in Get Help.
 
-For manual troubleshooting for step 7, or for more information, see [Fix authentication issues in Office applications when you try to connect to an Office 365 service](/office365/troubleshoot/authentication/automatic-authentication-fails).
+For manual troubleshooting for step 7, or for more information, see [Fix authentication issues in Microsoft 365 applications when you try to connect to a Microsoft 365 service](/microsoft-365/troubleshoot/authentication/automatic-authentication-fails).
 <br/><br/>
 </details>
 
@@ -209,20 +209,20 @@ If you're having problems using shared computer activation, you might get one of
 <details>
 <summary><b>The products we found in your account cannot be used to activate Office in shared computer scenarios.</b></summary>
 
-This error means that you don't have an Office 365 (or Microsoft 365) plan that includes Microsoft 365 Apps and that supports shared computer activation. Therefore, you can't use shared computer activation.
+This error means that you don't have a Microsoft 365 plan that includes Microsoft 365 Apps and that supports shared computer activation. Therefore, you can't use shared computer activation.
 <br/><br/>
 </details>
 
 <details>
 <summary><b>UNLICENSED PRODUCT Most features are turned off because a shared computer license isn't available.</b></summary>
 
-This error means that a licensing token wasn't obtained from the Office Licensing Service on the internet. Office is now in reduced functionality mode. The user can view and print Office documents, but can't create or edit documents.
+This error means that a licensing token wasn't obtained from the Office Licensing Service on the internet. Office is now in reduced functionality mode. The users can view and print Office documents, but can't create or edit documents.
 
 You can try these steps to fix this problem:
 
-- [Check that the user is assigned a license](/microsoft-365/admin/manage/assign-licenses-to-users) for Microsoft 365 Apps.
+- [Check that the users are assigned a license](/microsoft-365/admin/manage/assign-licenses-to-users) for Microsoft 365 Apps.
 
-- Check that the user signs in with her user account for Office 365 if the **Activate Office** dialog box appears when the user opens an Office program.
+- Check that the users sign in with their user account for Microsoft 365 if the **Activate Office** dialog box appears when they open a Microsoft 365 application.
 
 - Check that there is connectivity between the shared computer and the internet.
 <br/><br/>
@@ -231,7 +231,7 @@ You can try these steps to fix this problem:
 <details>
 <summary><b>Sorry, we cannot verify the license currently installed for this product.</b></summary>
 
-This error means that Office has a problem with the user's licensing token on the shared computer. The user should make sure to sign in to Office with his user account for Office 365 so that Office can obtain a new licensing token from the Office Licensing Service on the internet.
+This error means that Office has a problem with the users' licensing token on the shared computer. The users should make sure to sign in to Office with their user account for Microsoft 365 so that Office can obtain a new licensing token from the Office Licensing Service on the internet.
 <br/><br/>
 </details>
 
@@ -240,14 +240,14 @@ This error means that Office has a problem with the user's licensing token on th
 
 This error means that Office tried to renew the licensing token automatically, but there was a problem. One possible cause for this is that the shared computer wasn't connected to the internet when Office tried to renew the licensing token with the Office Licensing Service.
 
-The licensing token is valid until the date listed in the error message. The user can continue to use Office apps to create, edit, and print documents. The user can choose **Renew** to try to renew the license before the license token expires.
+The licensing token is valid until the date listed in the error message. The user can continue to use Microsoft 365 apps to create, edit, and print documents. The user can choose **Renew** to try to renew the license before the license token expires.
 <br/><br/>
 </details>
 
 <details>
-<summary><b>Sorry, this Office 365 account has recently been used to activate too many computers.</b></summary>
+<summary><b>Sorry, this Microsoft 365 account has recently been used to activate too many computers.</b></summary>
 
-Microsoft places a limit on the number of shared computers that a user can activate Office on in a given time period. This error means that the user exceeded that limit. 
+Microsoft places a limit on the number of shared computers that a user can activate Microsoft 365 on in a given time period. This error means that the user exceeded that limit.
 <br/><br/>
 </details>
 
@@ -258,22 +258,22 @@ Microsoft places a limit on the number of shared computers that a user can activ
 
 If you are having trouble with shared computer activation using Citrix, see the following Citrix articles:
 
-- [Password Field Not Displayed When Publishing Any Office 365 Application Such As Excel or Word On Server 2019 or Windows 10](https://support.citrix.com/article/CTX267071)
+- [Password Field Not Displayed When Publishing Any Microsoft 365 Application Such As Excel or Word On Server 2019 or Windows 10](https://support.citrix.com/article/CTX267071)
 
 - [Microsoft 365 Apps (Office 365) is Randomly Asking Users to Reactivate](https://support.citrix.com/article/CTX227286)
 
-- [Office 365 activation issue with Windows 10 VDI's](https://support.citrix.com/article/CTX289614)
+- [Microsoft 365 activation issue with Windows 10 VDI's](https://support.citrix.com/article/CTX289614)
 <br/><br/>
 </details>
 
 <details>
-<summary><b>Make sure RDS servers are joined to Azure Active Directory (Azure AD)</b></summary>
+<summary><b>Make sure RDS servers are joined to Microsoft Entra ID</b></summary>
 
-Use Azure AD Connect sync to set up password hash synchronization and Seamless Single Sign-on (Seamless SSO). For instructions, see the following articles:
+Use Microsoft Entra Connect Sync to set up password hash synchronization and Seamless Single Sign-on (Seamless SSO). For instructions, see the following articles:
 
-- [Implement password hash synchronization with Azure AD Connect sync](/azure/active-directory/hybrid/how-to-connect-password-hash-synchronization)
+- [Implement password hash synchronization with Microsoft Entra Connect Sync](/azure/active-directory/hybrid/how-to-connect-password-hash-synchronization)
 
-- [Azure Active Directory Seamless Single Sign-On](/azure/active-directory/hybrid/how-to-connect-sso)
+- [Microsoft Entra seamless single sign-on](/azure/active-directory/hybrid/how-to-connect-sso)
 <br/><br/>
 </details>
 
@@ -313,9 +313,9 @@ If you’re using FSLogix and SSO:
 </details>
 
 <details>
-<summary><b>Office 365 Container Exclusions</b></summary>
+<summary><b>Microsoft 365 Container Exclusions</b></summary>
 
-When the FSLogix Office 365 container is used with any other profile solution (except local Windows profiles) the following folders need to be excluded from handling by the profile solution:
+When the FSLogix Microsoft 365 container is used with any other profile solution (except local Windows profiles) the following folders need to be excluded from handling by the profile solution:
 
 - OneDrive
 - SharePoint

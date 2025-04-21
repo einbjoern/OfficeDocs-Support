@@ -3,27 +3,26 @@ title: How to troubleshoot errors when you save Excel workbooks
 description: Describes how to troubleshoot errors that occur when you try to save workbooks in Microsoft Excel.
 author: helenclu
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
 ms.topic: troubleshooting
 ms.author: luche
-ms.custom: CSSTroubleshoot
+ms.custom: 
+  - Save
+  - CSSTroubleshoot
 appliesto: 
-  - Excel for Office 365
+  - Excel for Microsoft 365
   - Excel 2019
   - Excel 2016
   - Excel 2013
   - Excel 2010
   - Microsoft Office Excel 2007
   - Microsoft Office Excel 2003
-ms.date: 3/31/2022
+ms.date: 06/06/2024
 ---
 
 # Troubleshoot why Excel doesn't save changes
-
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
 
 As you work in a workbook, Microsoft Excel saves the file automatically. It gives the file a temporary file name, and puts the file into the same folder as the original version. When you manually save the workbook, the original file is deleted, and the temporary file is assigned the original file name.
 

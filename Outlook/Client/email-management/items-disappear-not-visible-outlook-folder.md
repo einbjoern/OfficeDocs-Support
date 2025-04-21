@@ -4,8 +4,9 @@ description: Fixes an issue in which some or all items disappear from an Outlook
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
-ms.custom: CSSTroubleshoot
+ms.custom: 
+  - sap:User Interface features and Configuration\Folder views
+  - CSSTroubleshoot
 appliesto:
 - Outlook 2016
 - Outlook 2013
@@ -14,13 +15,13 @@ appliesto:
 - Microsoft Office Outlook 2003
 - Microsoft Business Productivity Online Dedicated
 - Microsoft Business Productivity Online Suite Federal
-- Outlook for Office 365
+- Outlook for Microsoft 365
 - Outlook 2019
 search.appverid: MET150
-ms.reviewer: 
-author: simonxjx
-ms.author: v-six
-ms.date: 3/31/2022
+ms.reviewer: v-six
+author: cloud-writer
+ms.author: meerak
+ms.date: 01/30/2024
 ---
 # Items disappear or are not visible in an Outlook folder
 

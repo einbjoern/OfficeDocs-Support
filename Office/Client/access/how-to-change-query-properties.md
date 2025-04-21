@@ -3,22 +3,22 @@ title: How to modify query properties in Microsoft Access
 description: Describes how to modify query properties in Microsoft Access, such as change the display of fields, create top value queries, add an alias for a table, change field captions and formatting.
 author: helenclu
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
-ms.custom: CSSTroubleshoot
+ms.custom: 
+  - CSSTroubleshoot
 ms.topic: troubleshooting
 ms.author: luche
 appliesto: 
-  - Access for Office 365
+  - Access for Microsoft 365
   - Access 2019
   - Access 2016
   - Access 2013
   - Access 2010
   - Microsoft Office Access 2007
 ms.reviewer: ROBCOO, SROULEAU
-ms.date: 3/31/2022
+ms.date: 03/31/2022
 ---
 # How to modify query properties in Microsoft Access
 

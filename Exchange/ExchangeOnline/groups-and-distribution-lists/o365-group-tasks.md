@@ -1,21 +1,22 @@
 ---
 title: Common tasks to manage Microsoft 365 groups
-description: Describes common tasks about how to manage Microsoft 365 groups. For example, groups and teams, group delegation, group email management, and some other tasks.
-author: MaryQiu1987
-ms.author: v-maqiu
+description: Describes common tasks to manage Microsoft 365 groups. 
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
 ms.custom: 
+  - sap:Groups, Lists, Contacts, Public Folders
   - Exchange Online
   - CI 115161
   - CSSTroubleshoot
+  - has-azure-ad-ps-ref
 ms.reviewer: batre
 appliesto: 
   - Exchange Online
 search.appverid: MET150
-ms.date: 3/31/2022
+ms.date: 01/24/2024
 ---
 # Microsoft 365 Groups - common tasks
 
@@ -41,8 +42,10 @@ Tenant administrators perform many common tasks to manage Microsoft 365 groups. 
   - [Get a copy of group email messages you send](#get-a-copy-of-group-email-messages-you-send)
   - [Configure automatic replies](#configure-automatic-replies)
   - [Email issues in Microsoft 365 groups](#email-issues-in-microsoft-365-groups)
-- Other tasks
+- Microsoft 365 Groups restoration
   - [Restore a Microsoft 365 Group](#restore-a-microsoft-365-group)
+  - [Restore email conversations deleted from a Microsoft 365 group](#restore-email-conversations-deleted-from-a-microsoft-365-group)
+- Other tasks
   - [Convert to a Microsoft 365 group](#convert-to-a-microsoft-365-group)
   - [Access Microsoft 365 groups from Exchange clients](#access-microsoft-365-groups-from-exchange-clients)
   - [Microsoft 365 group migration](#microsoft-365-group-migration-between-tenants)
@@ -185,7 +188,7 @@ Assume that *contoso.com* is your primary email domain and contoso.onmicrosoft.c
 Set-UnifiedGroup Marketing -PrimarySmtpAddress marketing@contoso.com
 ```
 
-To learn more about MOERA addresses, see [How the proxyAddresses attribute is populated in Azure AD](https://support.microsoft.com/help/3190357/how-the-proxyaddresses-attribute-is-populated-in-azure-ad).
+To learn more about MOERA addresses, see [How the proxyAddresses attribute is populated in Microsoft Entra ID](https://support.microsoft.com/help/3190357/how-the-proxyaddresses-attribute-is-populated-in-azure-ad).
 
 [Back to top](#summary)
 
@@ -302,32 +305,20 @@ To configure automatic reply messages for a specific Microsoft 365 group mailbox
 Set-MailboxAutoReplyConfiguration -Identity <groupmailbox> -AutoReplyState Enabled -InternalMessage "<Internal auto-reply message>" -ExternalMessage "<External auto-reply message>"
 ```
 
+> [!NOTE]
+> If your group mailbox has reached its allotted quota, you will receive a "Microsoft.Exchange.Data.Storage.QuotaExceededException" error when you run the Set-MailboxAutoReplyConfiguration cmdlet. To resolve the error, use the following steps:
+>
+> 1. [Reduce the size of your group mailbox](/microsoft-365/admin/create-groups/group-mailbox-size-management).
+> 1. Wait 1 hour for the changes to take effect.
+> 1. Rerun the Set-MailboxAutoReplyConfiguration cmdlet.
+
 [Back to top](#summary)
 
 ### Email issues in Microsoft 365 groups
 
 #### Issue 1: Messages sent from external users to a Microsoft 365 group are not received
 
-If your sender receives a non-delivery report (NDR) that has the status code 550 5.7.193, make sure that the Microsoft 365 group is enabled to receive email messages from external users.
-
-##### For Microsoft 365 group owners
-
-1. Open the [Groups hub](https://outlook.office.com/people/group/owner).
-2. Edit the group that's not receiving messages from external users.
-3. Make sure that you select the **Let people outside the organization email the group** check box.
-
-   :::image type="content" source="media/o365-group-tasks/outside-checkbox.png" alt-text="Screenshot of the Let people outside the organization email the group checkbox.":::
-
-4. Save the group.
-
-##### For tenant admins
-
-1. [Connect to Exchange Online PowerShell](/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps&preserve-view=true).
-2. Run the following command:
-
-   ```powershell
-   Set-UnifiedGroup <GroupName> -RequireSenderAuthenticationEnabled $false
-   ```
+If your sender receives a non-delivery report (NDR) that has the status code 550 5.7.193, make sure that the Microsoft 365 group is [enabled to receive email messages from external users](/exchange/troubleshoot/email-delivery/ndr-when-external-users-send-email-to-microsoft-365-group).
 
 #### Issue 2: Messages sent to a Microsoft 365 group are not received by all members
 
@@ -355,7 +346,7 @@ Get-UnifiedGroupLinks $Group -LinkType Member | % {Add-UnifiedGroupLinks -Identi
 
 [Back to top](#summary)
 
-## Other tasks
+## Microsoft 365 group restoration
 
 ### Restore a Microsoft 365 Group
 
@@ -364,7 +355,7 @@ Deleted Microsoft 365 groups are retained for 30 days. Within this period, eithe
 Restoring a Microsoft 365 group restores any services that are related to the group, such as Planner, Teams, and SharePoint sites.
 
 > [!NOTE]
-> It may take several hours to restore all the associated content for a group.
+> It may take up to 48 hours to restore all the associated content for a group.
 
 #### For group owners
 
@@ -383,6 +374,14 @@ Restoring a Microsoft 365 group restores any services that are related to the gr
 Use the [Microsoft 365 Admin center](https://aka.ms/RestoreDeletedGroup) or Azure Active Directory (Azure AD) PowerShell to restore a deleted group. See [Restore a deleted Microsoft 365 Group](/microsoft-365/admin/create-groups/restore-deleted-group?view=o365-worldwide&preserve-view=true).
 
 [Back to top](#summary)
+
+### Restore email conversations deleted from a Microsoft 365 group
+
+If you accidentally delete email conversations from a Microsoft 365 Group, you can restore them by using Outlook on the web or by running the `Restore-RecoverableItems` PowerShell cmdlet. For more information, see [Restore deleted email conversations from Microsoft 365 Groups](/Exchange/recipients-in-exchange-online/restore-deleted-items-group).
+
+[Back to top](#summary)
+
+## Other tasks
 
 ### Convert to a Microsoft 365 group
 
@@ -419,6 +418,8 @@ There is no native tool or method available to migrate Microsoft 365 groups betw
 ### Microsoft 365 group deletion
 
 Deleted Microsoft 365 groups and related services (such as Teams, SharePoint sites, and so on) are retained in a soft-deleted state for 30 days. If you are a tenant admin, you can permanently delete a Microsoft 365 group without waiting for 30 days.
+
+[!INCLUDE [Azure AD PowerShell deprecation note](../../../includes/aad-powershell-deprecation-note.md)]
 
 1. Connect to Azure AD PowerShell.
 2. Run the following command to get the ID of the deleted group:
@@ -470,7 +471,7 @@ To list all Microsoft 365 groups together with tracking information about the gr
 
 ### Microsoft 365 Group mailbox size
 
-The size limit of Microsoft 365 group mailboxes is 50 GB by default. The following information explains how to view the current size of a Microsoft 365 group mailbox, and how to increase the mailbox quota.
+The size limit of Microsoft 365 group mailboxes is 50 GB by default. The following information explains how to view the current size of a Microsoft 365 group mailbox, and how to free up space in it before it gets full.
 
 #### View the group mailbox size
 
@@ -489,24 +490,17 @@ The size limit of Microsoft 365 group mailboxes is 50 GB by default. The followi
    Get-Mailbox -GroupMailbox -ResultSize unlimited | Get-MailboxStatistics | ft DisplayName,TotalDeletedItemSize,TotalItemSize
    ```
 
-#### Increase group mailbox quota
+#### Increase space in the group mailbox
 
-1. [Connect to Exchange Online PowerShell](/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps&preserve-view=true).
-2. Run the following command to change quota of a Microsoft 365 group mailbox to 100 GB:
+There's no supported way to increase the quota of a group mailbox. You must remove older email messages to free up space in the group mailbox.
 
-   ```powershell
-   Set-Mailbox <group mailbox name> -GroupMailbox -ProhibitSendReceiveQuota 100GB -ProhibitSendQuota 95GB
-   ````
+A group owner can remove older email messages by using Outlook or Outlook on the web to free up space immediately. A tenant administrator can set up a [retention policy](/microsoft-365/compliance/create-retention-policies) to clean older email messages from groups. Retention policies take longer to clean up the data though.
 
-   Example:
-
-   ```powershell
-   Set-Mailbox Marketing -GroupMailbox -ProhibitSendReceiveQuota 100GB -ProhibitSendQuota 95GB
-   ````
+Also, you can [search the content](/microsoft-365/compliance/content-search) of the group mailbox and [export the search results](/microsoft-365/compliance/export-search-results) to a PST file before removing email messages from the group mailbox.
 
 ### Microsoft 365 Group usage report
 
-In the Microsoft 365 groups report, you can gain insights into the activity of groups in your organization, such as Emails received in Exchange, Messages in Yammer. For more information, see [Microsoft 365 Reports in the admin center](https://aka.ms/M365GroupUsageReport).
+In the Microsoft 365 groups report, you can gain insights into the activity of groups in your organization, such as Emails received in Exchange, Messages in Viva Engage. For more information, see [Microsoft 365 Reports in the admin center](https://aka.ms/M365GroupUsageReport).
 
 [Back to top](#summary)
 

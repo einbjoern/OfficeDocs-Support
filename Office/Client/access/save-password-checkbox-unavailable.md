@@ -9,16 +9,15 @@ ms.topic: troubleshooting
 ms.custom: 
   - CSSTroubleshoot
   - CI 162524
-localization_priority: Normal
 ms.reviewer: 
 search.appverid: 
   - MET150
 appliesto: 
   - Access 2016
   - Access 2013
-  - Access for Office 365
+  - Access for Microsoft 365
   - Access 2019
-ms.date: 3/31/2022
+ms.date: 06/06/2024
 ---
 
 # Save Password check box is unavailable when you link ODBC tables

@@ -2,17 +2,19 @@
 title: Errors when you access documents in Microsoft Offices Online 2013 or Office Online Server from SharePoint web applications where Forms-Based Authentication is enabled
 description: Fixes an issue that occurs when you preview, view, or edit documents in Microsoft Offices Online 2013 or Office Online Server from SharePoint web applications where Forms-Based Authentication (FBA) is enabled.
 author: helenclu
-ms.author: thempel
+ms.author: luche
+ms.reviewer: thempel
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
 ms.topic: troubleshooting
-ms.custom: sap:office-experts, CSSTroubleshoot
+ms.custom: 
+  - sap:office-experts
+  - CSSTroubleshoot
 appliesto: 
   - Office Online Server
-ms.date: 3/31/2022
+ms.date: 06/06/2024
 ---
 
 # Errors when you access documents in Office Online Server

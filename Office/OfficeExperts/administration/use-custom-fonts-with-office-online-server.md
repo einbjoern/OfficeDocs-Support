@@ -2,17 +2,19 @@
 title: Use custom fonts with Office Online Server (OOS)
 description: Describes how to use custom fonts with Microsoft Office Online Server (OOS).
 author: helenclu
-ms.author: thempel
+ms.author: luche
+ms.reviewer: thempel
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
 ms.topic: troubleshooting
-ms.custom: sap:office-experts, CSSTroubleshoot
+ms.custom: 
+  - sap:office-experts
+  - CSSTroubleshoot
 appliesto: 
   - Office Online Server
-ms.date: 3/31/2022
+ms.date: 06/06/2024
 ---
 
 # Use custom fonts with Office Online Server (OOS)

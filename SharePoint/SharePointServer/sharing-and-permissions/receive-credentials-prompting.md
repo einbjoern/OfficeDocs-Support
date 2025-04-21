@@ -3,16 +3,17 @@ title: You're prompted for credentials when you open documents anonymously
 description: When you open documents anonymously or by using Windows Installer (MSI) based version of Office applications, you're prompted for credentials.
 author: helenclu
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
 ms.topic: troubleshooting
-ms.custom: CSSTroubleshoot
+ms.custom: 
+  - sap:Administration\Farm Administration
+  - CSSTroubleshoot
 ms.author: luche
 appliesto: 
   - SharePoint Server 2016
-ms.date: 3/31/2022
+ms.date: 12/17/2023
 ---
 
 # You're prompted for credentials when you open documents anonymously in SharePoint Server 2016
@@ -20,7 +21,7 @@ ms.date: 3/31/2022
 ## Applies to:
 
 - Microsoft SharePoint Server 2016
-- Windows Installer (MSI) based version of Microsoft Office 2016 applications (does not apply to Office 365 applications)
+- Windows Installer (MSI) based version of Microsoft Office 2016 applications (does not apply to Microsoft 365 applications)
 - Anonymous access that is enabled for the SharePoint site or library
 - Accessing Office documents anonymously
 - Accessing Office documents by using a different account than the one that you used to logged in to Windows

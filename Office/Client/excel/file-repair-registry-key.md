@@ -3,23 +3,22 @@ title: Registry keys that control the File Repair feature
 description: Explains how to open an Excel workbook to repair or recover the data.
 author: helenclu
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
 ms.topic: troubleshooting
 ms.author: luche
-ms.custom: CSSTroubleshoot
+ms.custom: 
+  - Open\Recovery
+  - CSSTroubleshoot
 appliesto: 
   - Excel 2007
   - Excel 2003
   - Excel 2002
-ms.date: 3/31/2022
+ms.date: 06/06/2024
 ---
 
 # Registry keys that control the File Repair feature in Excel
-
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
 
 > [!IMPORTANT]
 > This article contains information about how to modify the registry. Make sure that you back up the registry before you modify it. Make sure that you know how to restore the registry if a problem occurs. For more information about how to back up, restore, and modify the registry, see [Description of the Microsoft Windows registry](https://support.microsoft.com/help/256986).

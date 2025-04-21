@@ -1,0 +1,69 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      }      
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.pdf",
+          "**/*.svg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ]
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {
+      "breadcrumb_path": "/viva/troubleshoot/breadcrumb/toc.json",
+      "extendBreadcrumb": true,
+      "recommendations": true,
+      "feedback_system": "Standard",
+      "feedback_product_url": "https://techcommunity.microsoft.com/t5/microsoft-viva-blog/bg-p/MicrosoftVivaBlog",
+      "titleSuffix": "Viva",
+      "ms.service": "viva",
+      "hideEdit": true,
+      "uhfHeaderId": "MSDocsHeader-M365-IT",
+      "searchScope": ["Viva Support"],
+      "contributors_to_exclude": [ 
+        "beccarobins"
+      ]
+    },
+    "fileMetadata": {
+      "ms.service": {
+        "Glint/**/*.md": "viva-glint",
+        "Learning/**/*.md": "viva-learning",
+        "Pulse/**/*.md": "viva-pulse",
+        "Connections/**/*.md": "viva-connections"
+      },
+      "author": {
+        "**/*.md": "helenclu"
+      },
+      "ms.author": {
+        "**/*.md": "luche"
+      }
+    },
+    "template": [],
+    "dest": "OfficeDocs-Support-Viva",
+    "markdownEngineName": "markdig"
+  }
+}

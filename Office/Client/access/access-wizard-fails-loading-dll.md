@@ -1,12 +1,11 @@
 ---
 title: Error in loading DLL when using Access wizard
 description: Fixes an issue in which you can't use an Access wizard, such as the Import Text wizard or the Import Spreadsheet wizard.
-author: MaryQiu1987
-ms.author: v-maqiu
+author: helenclu
+ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
 ms.custom: 
   - CI 114797
   - CSSTroubleshoot
@@ -18,11 +17,9 @@ appliesto:
   - Microsoft Office Access 2007
   - Microsoft Office Access 2003
 search.appverid: MET150
-ms.date: 3/31/2022
+ms.date: 03/31/2022
 ---
 # "Error in loading DLL" error when you run a Microsoft Access wizard
-
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
 
 _Original KB number:_ &nbsp; 833220
 

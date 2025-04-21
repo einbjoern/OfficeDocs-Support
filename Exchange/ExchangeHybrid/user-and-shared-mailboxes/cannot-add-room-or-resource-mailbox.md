@@ -1,22 +1,22 @@
 ---
 title: Name error when adding a Room or Resource mailbox
-description: Provides workarounds for an issue that prevents a user from adding a cross-forest Room or Resource mailbox in Office 365 hybrid.
-author: simonxjx
-ms.author: v-six
+description: Provides workarounds for an issue that prevents a user from adding a cross-forest Room or Resource mailbox in Microsoft 365 hybrid.
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
 ms.custom: 
+  - sap:Hybrid
   - Exchange Hybrid
   - CSSTroubleshoot
-ms.reviewer: kellybos
+ms.reviewer: kellybos, v-six
 appliesto: 
   - Exchange Online
 search.appverid: MET150
-ms.date: 3/31/2022
+ms.date: 01/24/2024
 ---
-# Can't add a Room or Resource mailbox in an Office 365 hybrid environment
+# Can't add a Room or Resource mailbox in a Microsoft 365 hybrid environment
 
 _Original KB number:_ &nbsp; 3161713
 

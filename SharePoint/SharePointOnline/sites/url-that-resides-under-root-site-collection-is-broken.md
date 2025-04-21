@@ -3,16 +3,17 @@ title: How to replace the root site in SharePoint Online
 description: Provides steps about how to replace the root site in SharePoint Online.
 author: helenclu
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
 ms.topic: troubleshooting
 ms.author: luche
-ms.custom: CSSTroubleshoot
+ms.custom: 
+  - sap:SharePoint Admin Center\Deleted Sites
+  - CSSTroubleshoot
 appliesto: 
   - SharePoint Online
-ms.date: 3/31/2022
+ms.date: 12/17/2023
 ---
 
 # How to replace the root site in SharePoint Online
@@ -30,7 +31,7 @@ Custom applications accessing sites or content may fail.
 
 ## Summary
 
-The root site URL for SharePoint Online is provisioned based off your input when setting up your Office 365 subscription. For example, if your organization name is Contoso, the root site for SharePoint Online will be `https://contoso.sharepoint.com`. The remainder of this document will utilize Contoso as the organization name for all examples.
+The root site URL for SharePoint Online is provisioned based off your input when setting up your Microsoft 365 subscription. For example, if your organization name is Contoso, the root site for SharePoint Online will be `https://contoso.sharepoint.com`. The remainder of this document will utilize Contoso as the organization name for all examples.
 
 ## More information
 

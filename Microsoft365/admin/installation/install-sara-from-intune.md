@@ -1,12 +1,11 @@
 ---
 title: Deploy the SaRA tool using Microsoft Intune
 description: Learn how to deploy SaRA to multiple users using Microsoft Intune.
-author: MaryQiu1987
-ms.author: v-maqiu
+author: helenclu
+ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
 ms.custom: 
   - CI 120765
   - CSSTroubleshoot
@@ -15,13 +14,13 @@ appliesto:
   - Microsoft 365 Apps for enterprise
   - Outlook
 search.appverid: MET150
-ms.date: 3/31/2022
+ms.date: 03/31/2022
 ---
-# How to deploy the Microsoft Support and Recovery Assistant (SaRA) using Microsoft Intune
+# How to deploy Microsoft Support and Recovery Assistant  using Microsoft Intune
 
 ## Summary
 
-The Support and Recovery Assistant (SaRA) tool can be manually installed on one computer at a time by using either the [internet download](https://aka.ms/SaRA_Home) or a [network installation](./install-sara-from-network-share.md). However, you can also get SaRA deployed to users more efficiently as a Win32 app by using Microsoft Intune. To deploy SaRA as a Win32 app by using Microsoft Intune, use the steps in the following sections.
+Microsoft Support and Recovery Assistant can be manually installed on one computer at a time by using either the [internet download](https://aka.ms/SaRA_Home) or a [network installation](./install-sara-from-network-share.md). However, you can also get SaRA deployed to users more efficiently as a Win32 app by using Microsoft Intune. To deploy SaRA as a Win32 app by using Microsoft Intune, use the steps in the following sections.
 
 For complete information about app deployment by using Microsoft Intune, see the following articles:
 
@@ -32,9 +31,9 @@ For complete information about app deployment by using Microsoft Intune, see the
 
 1. **Get a copy of SaraSetup.exe**
 
-   To download a copy of SaraSetup.exeby, follow these steps:
+   To download a copy of SaraSetup.exe, follow these steps:
 
-    1. Go to [About the Microsoft Support and Recovery Assistant](https://aka.ms/SaRA_Home).
+    1. Go to [About Microsoft Support and Recovery Assistant](https://aka.ms/SaRA_Home).
     2. Select **Download**.
     3. Save the file to your local hard disk.
 
@@ -141,6 +140,6 @@ For complete information about app deployment by using Microsoft Intune, see the
  
         :::image type="content" source="media/install-sara-from-intune/search-this-list-support.png" alt-text="Screenshot to type support in the Search this list box.":::
         > [!NOTE]
-        > The SaRA tool requires access to network endpoints needed for connectivity from a user of Office 365 across an enterprise perimeter network. The current list of endpoint is provided in [Additional endpoints not included in the Office 365 IP Address and URL Web service](/microsoft-365/enterprise/additional-office365-ip-addresses-and-urls?view=o365-worldwide&preserve-view=true).
+        > The SaRA tool requires access to network endpoints needed for connectivity from a user of Microsoft 365 across an enterprise perimeter network. The current list of endpoint is provided in [Additional endpoints not included in the Microsoft 365 IP Address and URL Web service](/microsoft-365/enterprise/additional-office365-ip-addresses-and-urls?view=o365-worldwide&preserve-view=true).
 
 Still need help? Go to [Microsoft Community](https://answers.microsoft.com/).

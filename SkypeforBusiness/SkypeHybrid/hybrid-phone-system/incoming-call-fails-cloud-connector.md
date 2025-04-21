@@ -3,16 +3,16 @@ title: Incoming call fails when you use Skype for Business Cloud Connector Editi
 description: Describes an issue that triggers a We're sorry, we cannot complete your call at this time error when you use Skype for Business Cloud Connector Edition. Provides a solution.
 author: simonxjx
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
 ms.topic: troubleshooting
 ms.author: v-six
-ms.custom: CSSTroubleshoot
+ms.custom: 
+  - CSSTroubleshoot
 appliesto: 
   - Skype for Business Online
-ms.date: 3/31/2022
+ms.date: 03/31/2022
 ---
 
 # Incoming call fails when you use Skype for Business Cloud Connector Edition
@@ -21,7 +21,7 @@ ms.date: 3/31/2022
 
 Consider the following scenario:
 
-- Your Office 365 user account is configured to use Cloud PBX.   
+- Your Microsoft 365 user account is configured to use Cloud PBX.   
 - You're using Skype for Business on Windows to receive calls, and the voice for calls uses Skype for Business Cloud Connector Edition.   
 - People report that they can't call you.
 - Your Skype for Business administrator has confirmed that your account is configured correctly to receive calls.   

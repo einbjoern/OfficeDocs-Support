@@ -3,16 +3,17 @@ title: You are not allowed to create team sites when you click new site on the S
 description: Describes an issue in which you receive You are not allowed to create team sites error message when you click new site on the SharePoint Online Followed Sites page.
 author: helenclu
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
 ms.topic: troubleshooting
 ms.author: luche
-ms.custom: CSSTroubleshoot
+ms.custom: 
+  - sap:Permissions\Permission Groups
+  - CSSTroubleshoot
 appliesto: 
   - SharePoint Online
-ms.date: 3/31/2022
+ms.date: 12/17/2023
 ---
 
 # "You are not allowed to create team sites" error message when you click "new site" on the SharePoint Online "Followed Sites" page
@@ -68,6 +69,6 @@ Add and remove users from the new group in order to grant or deny the permission
 
 ## More information
 
-This issue occurs because the user who is trying to create the site doesn't have **Create Subsites** permissions for the site collection where he or she is trying to create the site. 
+This issue occurs because the user who is trying to create the site doesn't have **Create Subsites** permissions for the site collection where the user is trying to create the site.
 
 Still need help? Go to [SharePoint Community](https://techcommunity.microsoft.com/t5/sharepoint/ct-p/SharePoint).

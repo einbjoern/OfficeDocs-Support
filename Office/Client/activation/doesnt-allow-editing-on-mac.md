@@ -1,13 +1,15 @@
 ---
 title: Microsoft 365 Apps activation error Your account doesn’t allow editing on a Mac
 description: Troubleshooting the error Your account doesn’t allow editing on a Mac.
-author: vikkarti
-ms.author: v-matthamer
+author: helenclu
+ms.reviewer: vikkarti
+ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
 ms.custom: 
+  - sap:Office Suite (Access, Excel, OneNote, PowerPoint, Publisher, Word, Visio)\Installation, Update, Deployment,  Activation
+  - Activation\Errors\Your account doesn't allow editing on a mac
   - CSSTroubleshoot
   - CI 157760
   - CI 159114
@@ -15,7 +17,7 @@ search.appverid:
   - MET150
 appliesto: 
   - Microsoft 365
-ms.date: 3/31/2022
+ms.date: 06/06/2024
 ---
 
 # Microsoft 365 Apps activation error: “Your account doesn’t allow editing on a Mac”

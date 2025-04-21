@@ -6,13 +6,12 @@ ms.author: luche
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
 ms.custom: 
   - CI 120588
   - CSSTroubleshoot
 ms.reviewer: v-kirkp
 appliesto: 
-  - Access for Office 365
+  - Access for Microsoft 365
   - Access 2019
   - Access 2016
   - Access 2013
@@ -21,11 +20,9 @@ appliesto:
   - Microsoft Office Access 2003
   - Microsoft Office Access 2000
 search.appverid: MET150
-ms.date: 3/31/2022
+ms.date: 06/06/2024
 ---
 # You may receive an error message when you try to insert a new record in a table that contains an Autonumber field in Access
-
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
 
 _Original KB number:_ &nbsp; 884185
 

@@ -3,16 +3,17 @@ title: Updated results aren't returned when you try to search the new or changed
 description: Describes an issue in which updated results aren't returned when you try to search the new or changed properties of the people categories in SharePoint Online.
 author: helenclu
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
 ms.topic: troubleshooting
 ms.author: luche
-ms.custom: CSSTroubleshoot
+ms.custom: 
+  - sap:Search\Schema
+  - CSSTroubleshoot
 appliesto: 
   - SharePoint Online
-ms.date: 3/31/2022
+ms.date: 12/17/2023
 ---
 
 # Updated results aren't returned when you try to search the new or changed properties of the people categories
@@ -53,7 +54,7 @@ The managed property that you mapped to People:LastName wasn't set to the people
 
 6. Click **OK**, and then click **OK** at the bottom of the page.
 
-When you change the search schema in the people categories, the change is applied only after you update a user profile. If you have to apply the change to all user profiles, you should contact Office 365 technical support.
+When you change the search schema in the people categories, the change is applied only after you update a user profile. If you have to apply the change to all user profiles, you should contact Microsoft 365 technical support.
 
 ### Scenario 2 solution: Change the search schema at the site collection level
 
@@ -67,13 +68,13 @@ The search schema change was made for a specific site collection and not at the 
 
 4. Configure the search schema change that was made at the site collection level.
 
-When you change the search schema in the people categories, the change is applied only after you update a user profile. If you have to apply the change to all user profiles, you should contact Office 365 technical support.
+When you change the search schema in the people categories, the change is applied only after you update a user profile. If you have to apply the change to all user profiles, you should contact Microsoft 365 technical support.
 
 ### Solution for scenario 3: Update the user profiles
 
 The changed property was not re-crawled after search schema changes were made.
 
-When you change the search schema in the people categories, the change is applied only after you update a user profile. If you have to apply the change to all user profiles, you should contact Office 365 technical support.
+When you change the search schema in the people categories, the change is applied only after you update a user profile. If you have to apply the change to all user profiles, you should contact Microsoft 365 technical support.
 
 ## More information
 

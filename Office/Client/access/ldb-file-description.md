@@ -3,21 +3,19 @@ title: Description of LDB File
 description: Describes LDB files that are Microsoft Access lock information files.
 author: helenclu
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
 ms.topic: troubleshooting
 ms.author: luche
-ms.custom: CSSTroubleshoot
+ms.custom: 
+  - CSSTroubleshoot
 appliesto: 
   - Microsoft Access
-ms.date: 3/31/2022
+ms.date: 03/31/2022
 ---
 
 # What is an LDB File?
-
-[!INCLUDE [Branding name note](../../../includes/branding-name-note.md)]
 
 LDB files are Microsoft Access lock information files. An ".LDB" file is created when an Access database is opened/accessed by a user - the file is created with the same name as the Access database, but with an ".LDB" extension. The file is used to keep track of all users that are currently accessing the database.
 

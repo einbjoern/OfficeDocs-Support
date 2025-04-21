@@ -1,20 +1,20 @@
 ---
 title: Exchange Online Mail Flow Diagnostic
 description: Describes the data that's collected by the Exchange Online Mail Flow Diagnostic tool.
-author: simonxjx
-ms.author: v-six
+author: cloud-writer
+ms.author: meerak
 manager: dcscontentpm
 audience: ITPro
 ms.topic: troubleshooting
-localization_priority: Normal
 ms.custom: 
+  - sap:Mail Flow
   - Exchange Hybrid
   - CSSTroubleshoot
-ms.reviewer: jchapp
+ms.reviewer: jchapp, v-six
 appliesto: 
   - Exchange Online
 search.appverid: MET150
-ms.date: 3/31/2022
+ms.date: 01/24/2024
 ---
 # Microsoft Exchange Online Mail Flow Diagnostic
 
@@ -26,7 +26,7 @@ The Microsoft Exchange Online Mail Flow Diagnostic tool Support Diagnostics Plat
 
 > [!NOTE]
 >
-> - This diagnostic package is produced specifically for customers who have both an on-premises Exchange Server organization and Exchange Online in Microsoft Office 365 (hybrid deployment).
+> - This diagnostic package is produced specifically for customers who have both an on-premises Exchange Server organization and Exchange Online in Microsoft 365 (hybrid deployment).
 > - All file names in the data collection are prefaced with \<YYYYMMDD_HHMMSS>.
 > - Information that's collected will depend on whether the sender or recipient has a mailbox or is a mail contact in your Exchange Online organization.
 > - When the diagnostic is prompted, message trace information will be collected for the sender-recipient pair and date (plus or minus one day) that you enter.

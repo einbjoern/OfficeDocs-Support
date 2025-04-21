@@ -2,17 +2,19 @@
 title: The Great Skype for Business Memory Mystery
 description: Describes the Great Skype for Business Memory Mystery.
 author: simonxjx
+ms.author: v-six
 manager: dcscontentpm
-localization_priority: Normal
 search.appverid: 
   - MET150
 audience: ITPro
 ms.topic: troubleshooting
-ms.custom: sap:sfbexperts, CSSTroubleshoot
-ms.author: kenguil
+ms.custom: 
+  - sap:sfbexperts
+  - CSSTroubleshoot
+ms.reviewer: kenguil
 appliesto: 
   - Skype for Business
-ms.date: 3/31/2022
+ms.date: 03/31/2022
 ---
 
 # The Great Skype for Business Memory Mystery
